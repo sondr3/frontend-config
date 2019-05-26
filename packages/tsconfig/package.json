@@ -6,8 +6,11 @@
   "repository": "https://github.com/sondr3/frontend-config",
   "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "typescript.json"
   ],
-  "gitHead": "06683e7473cd0b328e21b88bbf959479611d17bf"
+  "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }
