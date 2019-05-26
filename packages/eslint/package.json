@@ -1,0 +1,29 @@
+{
+  "name": "@sondr3/eslint-config-me",
+  "version": "1.0.0",
+  "description": "ESLint configuration for me",
+  "main": "index.js",
+  "repository": "https://github.com/sondr3/frontend-config",
+  "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "files": [
+    "index.js",
+    "react.js"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 1.0.0 < 2",
+    "@typescript-eslint/parser": ">= 1.0.0 < 2",
+    "eslint": ">= 5.0.0 < 6",
+    "eslint-config-airbnb": ">= 17.0.0 < 18",
+    "eslint-config-prettier": ">= 4.0.0 < 18",
+    "eslint-plugin-import": ">= 2.0.0 < 3",
+    "eslint-plugin-jsx-a11y": ">= 6.0.0 < 6",
+    "eslint-plugin-prettier": ">= 3.0.0 < 4",
+    "eslint-plugin-react": "> =7.0.0 < 8",
+    "eslint-plugin-react-hooks": ">= 1.0.0 < 2"
+  }
+}

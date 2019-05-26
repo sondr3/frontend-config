@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@sondr3/eslint-config"]
+  extends: ["@sondr3/me"]
 };
