@@ -14,12 +14,13 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@sondr3/eslint-config-me": "^0.1.2",
     "eslint": "^5.16.0",
     "husky": "^2.2.0",
     "lerna": "^3.14.1",
     "lint-staged": "^8.1.7",
     "prettier": "^1.17.1",
-    "@sondr3/eslint-config-me": "^0.1.2"
+    "typescript": "^3.4.5"
   },
   "husky": {
     "hooks": {
