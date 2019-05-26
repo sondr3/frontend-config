@@ -767,6 +767,11 @@
   dependencies:
     any-observable "^0.3.0"
 
+"@sondr3/eslint-config-me@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@sondr3/eslint-config-me/-/eslint-config-me-0.1.2.tgz#a658c516d877b06412ef6d52f4d4c5943d16ceaa"
+  integrity sha512-GDuzv+ZpCf5jx0Txk1iynZxbUBxP9caV0XJTgEmJF+v9igc5LRIpvaYQhGIB0nWIHX0M8cdu8TIXpazRXCXMSg==
+
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
@@ -5307,22 +5312,22 @@ strong-log-transformer@^2.0.0:
     minimist "^1.2.0"
     through "^2.3.4"
 
-"stylelint-a11y@>= 1.0.0 < 2":
+stylelint-a11y@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.2.0.tgz#f7b852140f6f76a4e4a75ff768baf5e88f327c26"
   integrity sha512-yMy0ctlRm5NnH26j30r45tMUwo4KR8y8/mGQQp+SBxGjqyU2J3wDcM7LcAUM2TnX45OK+FyUvo5klaWk6kls4w==
 
-"stylelint-config-prettier@>= 5.0.0 < 6":
+stylelint-config-prettier@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-5.2.0.tgz#b73d56a380662abd434ed745ca84db15e1a5aac6"
   integrity sha512-ehrG/mBi9CTKkOBi0wlStX58+g9eGJhJW/jFEcCm/dUVHg9I2+T90k4tlyratvhlz876dyrTlor7gvDEaohVnA==
 
-"stylelint-config-recommended@>= 2.0.0 < 3":
+stylelint-config-recommended@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.2.0.tgz#46ab139db4a0e7151fd5f94af155512886c96d3f"
   integrity sha512-bZ+d4RiNEfmoR74KZtCKmsABdBJr4iXRiCso+6LtMJPw5rd/KnxUWTxht7TbafrTJK1YRjNgnN0iVZaJfc3xJA==
 
-"stylelint-order@>= 3.0.0 < 4":
+stylelint-order@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-3.0.0.tgz#ec44afb93a3183dcf8c91540d4486de776250506"
   integrity sha512-CaK3ebU5qSDY4aQZ5yA5uCL1jjAeK+TQeyKcH1w1O/wxC1GjM6JCv0msrA3Wno29F1jW/1UoWIsRFeo7hk9gtg==
@@ -5331,7 +5336,7 @@ strong-log-transformer@^2.0.0:
     postcss "^7.0.14"
     postcss-sorting "^5.0.0"
 
-"stylelint-prettier@>= 1.0.0 < 2":
+stylelint-prettier@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-1.1.0.tgz#90ee2fc22f96f5e02ed5a42e1e76e32b02cf7036"
   integrity sha512-Xqk5G9HJb1W/aYyY7ksChsmAE3J7RCkkfQq/9Ox17NlGz4FUbx9FpJ694G9ip4glpIof1XJfm4pyF2/vVca2cg==
