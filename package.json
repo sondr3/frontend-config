@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-sondr3",
+  "name": "@sondr3/eslint-config",
   "version": "1.0.0",
   "description": "ESLint, Prettier and StyleLint configs for me",
   "main": "index.js",
@@ -11,7 +11,12 @@
     "eslint-config"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "react.js",
+    "stylelint.js",
+    "tsconfig.json",
+    "README.md",
+    "LICENSE"
   ],
   "devDependencies": {
     "husky": "^2.2.0",
