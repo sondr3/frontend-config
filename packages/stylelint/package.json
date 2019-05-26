@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/stylelint",
-  "version": "1.0.1-beta.0",
+  "version": "0.1.0",
   "description": "StyleLint configuration",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
@@ -20,5 +20,6 @@
     "stylelint-config-recommended": ">= 2.0.0 < 3",
     "stylelint-order": ">= 3.0.0 < 4",
     "stylelint-prettier": ">= 1.0.0 < 2"
-  }
+  },
+  "gitHead": "06683e7473cd0b328e21b88bbf959479611d17bf"
 }

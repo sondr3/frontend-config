@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/eslint-config-me",
-  "version": "1.0.1-beta.0",
+  "version": "0.1.0",
   "description": "ESLint configuration for me",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
@@ -25,5 +25,6 @@
     "eslint-plugin-prettier": ">= 3.0.0 < 4",
     "eslint-plugin-react": "> =7.0.0 < 8",
     "eslint-plugin-react-hooks": ">= 1.0.0 < 2"
-  }
+  },
+  "gitHead": "06683e7473cd0b328e21b88bbf959479611d17bf"
 }
