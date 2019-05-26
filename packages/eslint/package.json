@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/eslint-config-me",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "ESLint configuration for me",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
