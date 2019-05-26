@@ -18,7 +18,8 @@
     "husky": "^2.2.0",
     "lerna": "^3.14.1",
     "lint-staged": "^8.1.7",
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "@sondr3/eslint-config-me": "^0.1.2"
   },
   "husky": {
     "hooks": {
