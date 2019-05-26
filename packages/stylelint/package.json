@@ -16,13 +16,15 @@
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "stylelint": ">= 10.0.0 < 11",
+  "dependencies": {
     "stylelint-a11y": ">= 1.0.0 < 2",
     "stylelint-config-prettier": ">= 5.0.0 < 6",
     "stylelint-config-recommended": ">= 2.0.0 < 3",
     "stylelint-order": ">= 3.0.0 < 4",
     "stylelint-prettier": ">= 1.0.0 < 2"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 10.0.0 < 11"
   },
   "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }

@@ -17,17 +17,19 @@
     "index.js",
     "react.js"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": ">= 1.0.0 < 2",
     "@typescript-eslint/parser": ">= 1.0.0 < 2",
-    "eslint": ">= 5.0.0 < 6",
     "eslint-config-airbnb": ">= 17.0.0 < 18",
     "eslint-config-prettier": ">= 4.0.0 < 18",
     "eslint-plugin-import": ">= 2.0.0 < 3",
-    "eslint-plugin-jsx-a11y": ">= 6.0.0 < 6",
+    "eslint-plugin-jsx-a11y": ">= 6.0.0 < 7",
     "eslint-plugin-prettier": ">= 3.0.0 < 4",
     "eslint-plugin-react": "> =7.0.0 < 8",
     "eslint-plugin-react-hooks": ">= 1.0.0 < 2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5.0.0 < 6"
   },
   "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }
