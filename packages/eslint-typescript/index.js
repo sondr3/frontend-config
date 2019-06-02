@@ -24,8 +24,6 @@ module.exports = {
     "prettier/@typescript-eslint"
   ],
   rules: {
-    "react/jsx-filename-extension": "off",
-    "react/prop-types": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "import/no-unresolved": "error"
   },
