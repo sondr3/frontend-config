@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "ESLint configuration for React",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
@@ -17,6 +17,8 @@
     "index.js"
   ],
   "dependencies": {
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0"
   },

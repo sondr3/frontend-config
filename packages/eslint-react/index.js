@@ -1,9 +1,11 @@
 module.exports = {
   plugins: ["react-hooks"],
-  extends: ["plugin:react/recommended", "prettier/react"],
+  extends: [
+    "plugin:react/recommended",
+    "prettier/react",
+    "plugin:jsx-a11y/recommended"
+  ],
   rules: {
-    "react/jsx-filename-extension": "off",
-    "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
