@@ -14,7 +14,8 @@
     "eslint-config"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "typescript.js"
   ],
   "dependencies": {
     "eslint-config-prettier": "^4.3.0",
