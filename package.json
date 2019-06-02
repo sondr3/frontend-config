@@ -14,7 +14,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@sondr3/eslint-config-me": "^0.1.2",
+    "@sondr3/eslint-config-javascript": "^0.1.0",
     "eslint": "^5.16.0",
     "husky": "^2.2.0",
     "lerna": "^3.14.1",

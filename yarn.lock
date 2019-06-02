@@ -767,11 +767,6 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sondr3/eslint-config-me@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@sondr3/eslint-config-me/-/eslint-config-me-0.1.2.tgz#a658c516d877b06412ef6d52f4d4c5943d16ceaa"
-  integrity sha512-GDuzv+ZpCf5jx0Txk1iynZxbUBxP9caV0XJTgEmJF+v9igc5LRIpvaYQhGIB0nWIHX0M8cdu8TIXpazRXCXMSg==
-
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"

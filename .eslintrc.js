@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@sondr3/me"]
+  extends: ["@sondr3/javascript"]
 };
