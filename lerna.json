@@ -7,7 +7,7 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "message": "chore(release): release",
+      "message": "chore: release",
       "createRelease": "github"
     }
   }
