@@ -7,7 +7,7 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "message": "chore: release",
+      "message": "chore: release [skip ci]",
       "createRelease": "github"
     }
   }
