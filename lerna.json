@@ -3,5 +3,12 @@
   "lerna": "3.13.1",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "packages": ["packages/*"]
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): release",
+      "createRelease": "github"
+    }
+  }
 }
