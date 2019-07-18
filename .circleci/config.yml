@@ -9,6 +9,10 @@ jobs:
     steps:
       - checkout
 
+      - run:
+          name: Authenticate NPM
+          command: yarn config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:
