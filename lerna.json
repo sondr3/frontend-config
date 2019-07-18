@@ -5,7 +5,7 @@
   "useWorkspaces": true,
   "packages": ["packages/*"],
   "command": {
-    "publish": {
+    "version": {
       "conventionalCommits": true,
       "message": "chore(release): release",
       "createRelease": "github"
