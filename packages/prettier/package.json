@@ -1,0 +1,23 @@
+{
+  "name": "@sondr3/prettier",
+  "version": "0.0.1",
+  "description": "Prettier configuration",
+  "main": "index.js",
+  "repository": "https://github.com/sondr3/frontend-config",
+  "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
+}
