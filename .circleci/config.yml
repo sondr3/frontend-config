@@ -17,7 +17,7 @@ jobs:
 
       - run:
           name: Authenticate NPM
-          command: yarn config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/src/.npmrc
 
       - restore_cache:
           name: Restore Yarn Package Cache
