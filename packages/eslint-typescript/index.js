@@ -1,7 +1,4 @@
 module.exports = {
-  globals: {
-    MyGlobal: true
-  },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2018,
