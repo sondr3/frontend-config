@@ -13,14 +13,11 @@
     "style": "prettier --check *.{js,json,md} packages/**/*.{js.json.md}",
     "ci:publish": "lerna publish --yes"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "@commitlint/config-lerna-scopes": "^8.1.0",
-    "@sondr3/eslint-config-javascript": "^0.1.0",
+    "@sondr3/eslint-config-javascript": "^0.2.0",
     "@sondr3/prettier": "^0.1.0",
     "eslint": "^6.1.0",
     "husky": "^3.0.1",
