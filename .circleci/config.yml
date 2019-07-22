@@ -32,7 +32,7 @@ jobs:
           name: Install Dependencies
           command: |
             npm ci
-            npm run bootstrap
+            npm run bootstrap --ci
 
       - save_cache: # special step to save the dependency cache
           key: dependency-cache-{{ checksum "package.json" }}
