@@ -24,7 +24,7 @@
     "eslint-plugin-react-hooks": "^1.6.0"
   },
   "peerDependencies": {
-    "eslint": ">= 5.0.0 < 6"
+    "eslint": ">= 6.0.0 < 7"
   },
   "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }
