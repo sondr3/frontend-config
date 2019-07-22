@@ -30,7 +30,9 @@ jobs:
 
       - run:
           name: Install Dependencies
-          command: npm ci
+          command: |
+            npm ci
+            npm run bootstrap
 
       - save_cache: # special step to save the dependency cache
           key: dependency-cache-{{ checksum "package.json" }}
@@ -38,9 +40,5 @@ jobs:
             - ./node_modules
 
       - run:
-          name: Bootstrap packages
-          command: yarn bootstrap
-
-      - run:
           name: Publish packages
-          command: yarn ci:publish
+          command: npm run ci:publish
