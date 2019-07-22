@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-javascript@0.2.1...@sondr3/eslint-config-javascript@0.2.2) (2019-07-22)
+
+
+### Bug Fixes
+
+* make eslint-import work ([76a59ff](https://github.com/sondr3/frontend-config/commit/76a59ff))
+
+
+
+
+
 ## [0.2.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-javascript@0.2.0...@sondr3/eslint-config-javascript@0.2.1) (2019-07-22)
 
 **Note:** Version bump only for package @sondr3/eslint-config-javascript
