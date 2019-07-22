@@ -9,11 +9,10 @@ module.exports = {
     es6: true
   },
   extends: [
-    "airbnb",
+    "airbnb-base",
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript",
     "plugin:prettier/recommended"
   ],
   rules: {

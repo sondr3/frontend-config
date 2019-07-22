@@ -10,6 +10,7 @@
     "bootstrap": "npx lerna bootstrap --ci",
     "lint": "eslint .",
     "style": "prettier --check *.{js,json,md} packages/**/*.{js.json.md}",
+    "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js.json.md}",
     "ci:publish": "lerna publish --yes"
   },
   "devDependencies": {

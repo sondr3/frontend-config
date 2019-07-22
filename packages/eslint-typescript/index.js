@@ -11,7 +11,7 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   extends: [
-    "airbnb",
+    "airbnb-base",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/errors",
@@ -21,12 +21,6 @@ module.exports = {
     "prettier/@typescript-eslint"
   ],
   rules: {
-    "@typescript-eslint/explicit-function-return-type": "off",
     "import/no-unresolved": "error"
-  },
-  settings: {
-    "import/resolver": {
-      typescript: {}
-    }
   }
 };
