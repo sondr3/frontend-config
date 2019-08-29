@@ -1,5 +1,4 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module"
@@ -9,17 +8,11 @@ module.exports = {
     node: true,
     es6: true
   },
-  plugins: ["@typescript-eslint"],
   extends: [
     "airbnb-base",
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:import/typescript",
-    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/all",
+    "prettier",
     "prettier/@typescript-eslint"
   ],
   rules: {
@@ -28,7 +21,6 @@ module.exports = {
       {
         allowTypedFunctionExpressions: true
       }
-    ],
-    "import/no-unresolved": "error"
+    ]
   }
 };
