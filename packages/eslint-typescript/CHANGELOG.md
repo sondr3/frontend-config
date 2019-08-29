@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.3.0...@sondr3/eslint-config-typescript@0.3.1) (2019-08-29)
+
+
+### Bug Fixes
+
+* eslint-typescript resolver not importing properly ([0aea286](https://github.com/sondr3/frontend-config/commit/0aea286))
+
+
+
+
+
 # [0.3.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.2.4...@sondr3/eslint-config-typescript@0.3.0) (2019-08-29)
 
 
