@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.3.3...@sondr3/eslint-config-react@0.4.0) (2019-08-29)
+
+
+### Features
+
+* remove eslint-plugin-import from TS config ([e2a04e4](https://github.com/sondr3/frontend-config/commit/e2a04e4))
+
+
+
+
+
 ## [0.3.3](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.3.2...@sondr3/eslint-config-react@0.3.3) (2019-08-23)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
