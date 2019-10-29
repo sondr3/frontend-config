@@ -24,7 +24,7 @@
     "stylelint-prettier": "^1.1.0"
   },
   "peerDependencies": {
-    "stylelint": ">= 10.0.0 < 11"
+    "stylelint": ">= 11.0.0 < 12"
   },
   "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }
