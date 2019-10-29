@@ -1,4 +1,4 @@
-# frontend-config ![](https://github.com/sondr3/frontend-config/workflows/pipeline/badge.svg)
+# frontend-config [![Build status](https://github.com/sondr3/frontend-config/workflows/pipeline/badge.svg)](https://github.com/sondr3/frontend-config/actions?workflow=pipeline)
 
 These are a few of the packages and configurations that I use when developing
 frontend and JavaScript/Typescript projects. I wouldn't really recommend
