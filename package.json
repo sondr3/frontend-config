@@ -6,25 +6,27 @@
   "repository": "https://github.com/sondr3/frontend-config",
   "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "bootstrap": "npx lerna bootstrap --ci",
     "lint": "eslint .",
     "style": "prettier --check *.{js,json,md} packages/**/*.{js.json.md}",
     "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js.json.md}",
     "ci:publish": "lerna publish --yes"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
-    "@commitlint/config-lerna-scopes": "^8.1.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/config-lerna-scopes": "^8.2.0",
     "@sondr3/eslint-config-javascript": "^0.2.3",
     "@sondr3/prettier": "^0.1.1",
-    "eslint": "^6.2.1",
-    "husky": "^3.0.4",
-    "lerna": "^3.16.4",
-    "lint-staged": "^9.2.3",
+    "eslint": "^6.6.0",
+    "husky": "^3.0.9",
+    "lerna": "^3.18.3",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.4"
   },
   "prettier": "@sondr3/prettier",
   "husky": {

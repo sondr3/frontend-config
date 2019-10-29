@@ -2,6 +2,8 @@
   "version": "independent",
   "lerna": "3.13.1",
   "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
     "version": {
       "conventionalCommits": true,
