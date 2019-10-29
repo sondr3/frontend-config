@@ -32,4 +32,6 @@ jobs:
           yarn style
 
       - name: Publish
-        run: yarn ci:publish
+        run: |
+          git checkout master
+          yarn ci:publish
