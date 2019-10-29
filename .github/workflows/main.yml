@@ -20,6 +20,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "nilsen.sondre@gmail.com"
+          git config --global user.name "Sondre Nilsen" 
+
       - name: Authenticate NPM
         run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 
