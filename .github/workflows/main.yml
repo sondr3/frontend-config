@@ -1,0 +1,35 @@
+name: pipeline
+
+on: [push]
+
+jobs:
+  pipeline:
+    env:
+      CI: true
+    name: pipeline
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Authenticate NPM
+        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+
+      - name: Install and build
+        run: yarn install --frozen-lockfile
+
+      - name: Lint
+        run: |
+          yarn lint
+          yarn style
+
+      - name: Publish
+        run: yarn ci:publish
