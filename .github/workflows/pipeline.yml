@@ -1,6 +1,6 @@
 name: pipeline
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   pipeline:
@@ -28,6 +28,7 @@ jobs:
           yarn lint
           yarn style
   publish:
+    if: github.event_name == 'push'
     needs: pipeline
     env:
       CI: true
@@ -43,7 +44,7 @@ jobs:
       - name: Configure Git, NPM
         run: |
           git config --global user.email "nilsen.sondre@gmail.com"
-          git config --global user.name "GitHub Actions" 
+          git config --global user.name "Sondre Nilsen" 
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -53,11 +54,11 @@ jobs:
           git checkout "${GITHUB_REF:11}"
           git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GH_TOKEN }}
 
       - name: Publish
         run: |
           yarn install --frozen-lockfile
           yarn ci:publish
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_GH_TOKEN }}
