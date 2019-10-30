@@ -40,10 +40,13 @@ jobs:
         with:
           node-version: "12.x"
 
-      - name: Configure Git
+      - name: Configure Git, NPM
         run: |
           git config --global user.email "nilsen.sondre@gmail.com"
-          git config --global user.name "Sondre Nilsen" 
+          git config --global user.name "GitHub Actions" 
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Prepare repository
         run: |
@@ -55,7 +58,6 @@ jobs:
       - name: Publish
         run: |
           yarn install --frozen-lockfile
-          yarn ci:publish --registry https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
+          yarn ci:publish
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
