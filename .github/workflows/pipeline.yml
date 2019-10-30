@@ -1,6 +1,9 @@
 name: pipeline
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   pipeline:
@@ -28,7 +31,6 @@ jobs:
           yarn lint
           yarn style
   publish:
-    if: github.event_name == 'push'
     needs: pipeline
     env:
       CI: true
