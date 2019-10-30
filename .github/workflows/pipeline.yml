@@ -31,6 +31,7 @@ jobs:
           yarn lint
           yarn style
   publish:
+    if: "!contains(github.event.head_commit.message, 'chore(release)')"
     needs: pipeline
     env:
       CI: true
