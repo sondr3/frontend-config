@@ -8,13 +8,7 @@ module.exports = {
     node: true,
     es6: true
   },
-  extends: [
-    "airbnb-base",
-    "eslint:recommended",
-    "plugin:@typescript-eslint/all",
-    "prettier",
-    "prettier/@typescript-eslint"
-  ],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/all", "prettier", "prettier/@typescript-eslint"],
   rules: {
     "@typescript-eslint/explicit-function-return-type": [
       "error",
