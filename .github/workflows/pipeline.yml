@@ -48,7 +48,7 @@ jobs:
       - name: Prepare repository
         run: |
           git checkout "${GITHUB_REF:11}"
-          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/sondr3/blug
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/sondr3/frontend-config
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
