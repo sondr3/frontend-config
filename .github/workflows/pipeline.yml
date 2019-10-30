@@ -48,7 +48,7 @@ jobs:
       - name: Prepare repository
         run: |
           git checkout "${GITHUB_REF:11}"
-          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/sondr3/frontend-config
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -58,3 +58,4 @@ jobs:
           yarn ci:publish --registry https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
