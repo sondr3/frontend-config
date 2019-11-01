@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.4.0...@sondr3/eslint-config-typescript@0.4.1) (2019-11-01)
+
+
+### Bug Fixes
+
+* disable typedef rule, we use strict TS settings ([995c861](https://github.com/sondr3/frontend-config/commit/995c861ec463460d47aa4b4d1ee9ad2ecb53b5eb))
+
+
+
+
+
 # [0.4.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.3.1...@sondr3/eslint-config-typescript@0.4.0) (2019-10-30)
 
 
