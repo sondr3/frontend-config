@@ -10,12 +10,7 @@ module.exports = {
   },
   extends: ["eslint:recommended", "plugin:@typescript-eslint/all", "prettier", "prettier/@typescript-eslint"],
   rules: {
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        allowTypedFunctionExpressions: true
-      }
-    ]
+    "@typescript-eslint/typedef": "off"
   },
   settings: {
     "import/resolver": {
