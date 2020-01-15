@@ -8,7 +8,14 @@ module.exports = {
     node: true,
     es6: true
   },
-  extends: ["eslint:recommended", "plugin:@typescript-eslint/all", "prettier", "prettier/@typescript-eslint"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
   rules: {
     "@typescript-eslint/typedef": "off"
   },
