@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.4.1...@sondr3/eslint-config-typescript@0.5.0) (2020-01-15)
+
+
+### Features
+
+* fix [@typescript-eslint](https://github.com/typescript-eslint) throwing errors from their own rule set ([323df9a](https://github.com/sondr3/frontend-config/commit/323df9af5c1c55fcfe2ea8a219c21acf7f7cfc8c))
+
+
+
+
+
 ## [0.4.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.4.0...@sondr3/eslint-config-typescript@0.4.1) (2019-11-01)
 
 
