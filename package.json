@@ -23,10 +23,10 @@
     "@sondr3/prettier": "^0.2.0",
     "eslint": "^7.0.0",
     "husky": "^4.2.5",
-    "lerna": "^3.20.2",
-    "lint-staged": "^10.1.3",
-    "prettier": "^2.0.4",
-    "typescript": "^3.8.3"
+    "lerna": "^3.21.0",
+    "lint-staged": "^10.2.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.2"
   },
   "prettier": "@sondr3/prettier",
   "husky": {
