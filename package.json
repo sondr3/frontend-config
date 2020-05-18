@@ -19,7 +19,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/config-lerna-scopes": "^8.3.4",
-    "@sondr3/eslint-config-javascript": "^0.2.3",
+    "@sondr3/eslint-config-javascript": "^0.3.0",
     "@sondr3/prettier": "^0.2.0",
     "eslint": "^7.0.0",
     "husky": "^4.2.5",
