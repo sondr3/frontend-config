@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.6.1...@sondr3/eslint-config-typescript@0.7.0) (2020-06-21)
+
+
+### Features
+
+* upgrade to typescript-eslint v3 ([6d6f79f](https://github.com/sondr3/frontend-config/commit/6d6f79fd65970b66d2f2178c06cad43d4fc45215))
+
+
+
+
+
 ## [0.6.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.6.0...@sondr3/eslint-config-typescript@0.6.1) (2020-06-21)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
