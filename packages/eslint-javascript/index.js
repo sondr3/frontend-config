@@ -9,7 +9,7 @@ module.exports = {
     es6: true,
   },
   extends: [
-    "airbnb-base",
+    // "airbnb-base",
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
