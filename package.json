@@ -16,17 +16,17 @@
     "ci:publish": "lerna publish --yes"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
-    "@commitlint/config-lerna-scopes": "^9.0.1",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-lerna-scopes": "^9.1.1",
     "@sondr3/eslint-config-javascript": "^0.3.0",
     "@sondr3/prettier": "^0.2.0",
-    "eslint": "^7.3.0",
+    "eslint": "^7.4.0",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.7"
   },
   "prettier": "@sondr3/prettier",
   "husky": {
