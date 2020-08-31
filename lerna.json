@@ -7,8 +7,10 @@
   "command": {
     "version": {
       "conventionalCommits": true,
+      "exact": true,
       "message": "chore(release): publish",
-      "createRelease": "github"
+      "createRelease": "github",
+      "ignoreChanges": ["**/*.md"]
     }
   }
 }
