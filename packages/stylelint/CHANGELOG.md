@@ -7,25 +7,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @sondr3/stylelint
 
-
-
-
-
 ## [0.5.6](https://github.com/sondr3/frontend-config/compare/@sondr3/stylelint@0.5.5...@sondr3/stylelint@0.5.6) (2020-07-18)
 
 **Note:** Version bump only for package @sondr3/stylelint
 
-
-
-
-
 ## [0.5.5](https://github.com/sondr3/frontend-config/compare/@sondr3/stylelint@0.5.4...@sondr3/stylelint@0.5.5) (2020-06-21)
 
 **Note:** Version bump only for package @sondr3/stylelint
-
-
-
-
 
 ## [0.5.4](https://github.com/sondr3/frontend-config/compare/@sondr3/stylelint@0.5.3...@sondr3/stylelint@0.5.4) (2020-04-12)
 

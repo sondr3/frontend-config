@@ -7,84 +7,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
 
-
-
-
-
 # [0.8.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.8...@sondr3/eslint-config-typescript@0.8.0) (2020-08-15)
-
 
 ### Features
 
-* update prettier configuration for eslint/typescript ([357a367](https://github.com/sondr3/frontend-config/commit/357a3676b6c70a68750a1185e2bf1bd68dc69a7d))
-
-
-
-
+- update prettier configuration for eslint/typescript ([357a367](https://github.com/sondr3/frontend-config/commit/357a3676b6c70a68750a1185e2bf1bd68dc69a7d))
 
 ## [0.7.8](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.7...@sondr3/eslint-config-typescript@0.7.8) (2020-08-11)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
 
-
-
-
-
 ## [0.7.7](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.6...@sondr3/eslint-config-typescript@0.7.7) (2020-08-11)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
-
-
-
-
 
 ## [0.7.6](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.5...@sondr3/eslint-config-typescript@0.7.6) (2020-08-05)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
 
-
-
-
-
 ## [0.7.5](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.4...@sondr3/eslint-config-typescript@0.7.5) (2020-08-04)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
-
-
-
-
 
 ## [0.7.4](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.3...@sondr3/eslint-config-typescript@0.7.4) (2020-07-28)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
 
-
-
-
-
 ## [0.7.3](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.2...@sondr3/eslint-config-typescript@0.7.3) (2020-07-21)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
-
-
-
-
 
 ## [0.7.2](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.1...@sondr3/eslint-config-typescript@0.7.2) (2020-07-18)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
 
-
-
-
-
 ## [0.7.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.7.0...@sondr3/eslint-config-typescript@0.7.1) (2020-06-21)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
-
-
-
-
 
 # [0.7.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.6.1...@sondr3/eslint-config-typescript@0.7.0) (2020-06-21)
 

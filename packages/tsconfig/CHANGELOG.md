@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @sondr3/tsconfig
 
-
-
-
-
 # [0.4.0](https://github.com/sondr3/frontend-config/compare/@sondr3/tsconfig@0.3.1...@sondr3/tsconfig@0.4.0) (2020-04-04)
 
 ### Features

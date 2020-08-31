@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @sondr3/prettier
 
-
-
-
-
 # [0.2.0](https://github.com/sondr3/frontend-config/compare/@sondr3/prettier@0.1.1...@sondr3/prettier@0.2.0) (2020-03-22)
 
 ### Features

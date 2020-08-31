@@ -7,49 +7,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
 
-
-
-
-
 ## [0.5.5](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.4...@sondr3/eslint-config-react@0.5.5) (2020-08-13)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
-
-
-
-
 
 ## [0.5.4](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.3...@sondr3/eslint-config-react@0.5.4) (2020-07-29)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
 
-
-
-
-
 ## [0.5.3](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.2...@sondr3/eslint-config-react@0.5.3) (2020-07-27)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
-
-
-
-
 
 ## [0.5.2](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.1...@sondr3/eslint-config-react@0.5.2) (2020-07-17)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
 
-
-
-
-
 ## [0.5.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.0...@sondr3/eslint-config-react@0.5.1) (2020-06-21)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
-
-
-
-
 
 # [0.5.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.4.3...@sondr3/eslint-config-react@0.5.0) (2020-05-18)
 
