@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  publish:
+  checks:
     env:
       CI: true
     name: checks
