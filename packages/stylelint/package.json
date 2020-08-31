@@ -17,11 +17,11 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-a11y": "^1.2.3",
-    "stylelint-config-prettier": "^8.0.0",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-prettier": "^1.1.0"
+    "stylelint-a11y": "1.2.3",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-order": "4.1.0",
+    "stylelint-prettier": "1.1.2"
   },
   "peerDependencies": {
     "stylelint": ">= 13.0.0 < 14"
