@@ -16,9 +16,9 @@
     "ci:publish": "lerna publish --yes"
   },
   "devDependencies": {
-    "@commitlint/cli": "9.1.2",
-    "@commitlint/config-conventional": "9.1.2",
-    "@commitlint/config-lerna-scopes": "9.1.2",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/config-lerna-scopes": "11.0.0",
     "@sondr3/eslint-config-javascript": "^0.4.0",
     "@sondr3/prettier": "^0.2.0",
     "eslint": "7.8.1",
