@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.8](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.7...@sondr3/eslint-config-react@0.5.8) (2020-09-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4.1.2 ([db5bda4](https://github.com/sondr3/frontend-config/commit/db5bda44611f3e346ddb2c32f2c93603d3d25d90))
+
+
+
+
+
 ## [0.5.7](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-react@0.5.6...@sondr3/eslint-config-react@0.5.7) (2020-08-31)
 
 
