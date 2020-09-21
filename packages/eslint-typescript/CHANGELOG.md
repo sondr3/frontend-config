@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.8.4...@sondr3/eslint-config-typescript@0.9.0) (2020-09-21)
+
+
+### Features
+
+* add eslint-plugin-import to TypeScript configuration ([3d2a159](https://github.com/sondr3/frontend-config/commit/3d2a159a5cb53a2ad2c72d0a9c12018401d5da72))
+
+
+### BREAKING CHANGES
+
+* this will likely create a bunch of churn for my projects...
+
+
+
+
+
 ## [0.8.4](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.8.3...@sondr3/eslint-config-typescript@0.8.4) (2020-09-17)
 
 
