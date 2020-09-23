@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.9.0...@sondr3/eslint-config-typescript@0.10.0) (2020-09-23)
+
+
+### Features
+
+* add parser, update rules ([f1db8de](https://github.com/sondr3/frontend-config/commit/f1db8de3762db859707c029d58bd8f4fc35a9c53))
+
+
+
+
+
 # [0.9.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.8.4...@sondr3/eslint-config-typescript@0.9.0) (2020-09-21)
 
 
