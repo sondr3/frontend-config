@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.10.0...@sondr3/eslint-config-typescript@0.10.1) (2020-09-23)
+
+
+### Bug Fixes
+
+* add extensions to tryExtensions to fix eslint-plugin-import ([12b11cd](https://github.com/sondr3/frontend-config/commit/12b11cd09603700beeb7da15dfb7deeb3b2b4bbb))
+
+
+
+
+
 # [0.10.0](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.9.0...@sondr3/eslint-config-typescript@0.10.0) (2020-09-23)
 
 
