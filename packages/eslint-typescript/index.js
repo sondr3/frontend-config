@@ -30,4 +30,9 @@ module.exports = {
     "import/no-default-export": "error",
     "import/no-unresolved": "off",
   },
+  settings: {
+    node: {
+      tryExtensions: [".js", ".jsx", ".json", ".ts", ".tsx", ".node", ".mjs"],
+    },
+  },
 };
