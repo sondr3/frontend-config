@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-javascript@0.4.1...@sondr3/eslint-config-javascript@0.4.2) (2020-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v6.12.0 ([7b7c799](https://github.com/sondr3/frontend-config/commit/7b7c799e350f6ca50c8ea11d69e9fd1119c30aec))
+
+
+
+
+
 ## [0.4.1](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-javascript@0.4.0...@sondr3/eslint-config-javascript@0.4.1) (2020-08-31)
 
 **Note:** Version bump only for package @sondr3/eslint-config-javascript
