@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-javascript@0.4.2...@sondr3/eslint-config-javascript@0.4.3) (2020-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.22.1 ([77c0e9c](https://github.com/sondr3/frontend-config/commit/77c0e9ce3fd5f83befa0e85143b11095e4160834))
+
+
+
+
+
 ## [0.4.2](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-javascript@0.4.1...@sondr3/eslint-config-javascript@0.4.2) (2020-09-28)
 
 
