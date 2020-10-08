@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.6](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.10.5...@sondr3/eslint-config-typescript@0.10.6) (2020-10-08)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v4.4.0 ([4fc6909](https://github.com/sondr3/frontend-config/commit/4fc6909524cbc2f15f48e551222c98a0c8f733a2))
+
+
+
+
+
 ## [0.10.5](https://github.com/sondr3/frontend-config/compare/@sondr3/eslint-config-typescript@0.10.4...@sondr3/eslint-config-typescript@0.10.5) (2020-10-01)
 
 
