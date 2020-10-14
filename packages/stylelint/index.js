@@ -4,5 +4,6 @@ module.exports = {
   rules: {
     "order/order": ["custom-properties", "declarations"],
     "order/properties-alphabetical-order": true,
+    "string-quotes": "double",
   },
 };
