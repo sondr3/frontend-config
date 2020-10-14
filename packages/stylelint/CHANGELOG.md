@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/sondr3/frontend-config/compare/@sondr3/stylelint@0.5.7...@sondr3/stylelint@0.6.0) (2020-10-14)
+
+
+### Features
+
+* **stylelint:** use double quotes ([88e0909](https://github.com/sondr3/frontend-config/commit/88e09093f4be7b857eab28c5f2ff598163f33346))
+
+
+
+
+
 ## [0.5.7](https://github.com/sondr3/frontend-config/compare/@sondr3/stylelint@0.5.6...@sondr3/stylelint@0.5.7) (2020-08-31)
 
 **Note:** Version bump only for package @sondr3/stylelint
