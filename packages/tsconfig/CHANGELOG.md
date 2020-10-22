@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.3 (2020-10-22)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v4.5.0 ([a41f575](https://github.com/sondr3/frontend-config/commit/a41f575d68087dcc19d9cac3102e068ac9d7bd92))
+
+
+
+
+
 ## 0.4.2 (2020-10-20)
 
 **Note:** Version bump only for package @sondr3/tsconfig
