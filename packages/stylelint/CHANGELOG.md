@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.4 (2020-10-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4.2.0 ([204f393](https://github.com/sondr3/frontend-config/commit/204f39352dbe94902eccab790bf21faf3b0fda3a))
+
+
+
+
+
 ## 0.6.3 (2020-10-23)
 
 
