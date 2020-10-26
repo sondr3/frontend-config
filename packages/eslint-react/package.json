@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/eslint-config-react",
-  "version": "0.5.19",
+  "version": "0.5.20",
   "description": "ESLint configuration for React",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
