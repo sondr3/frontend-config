@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.10.18 (2020-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.4.1 ([c907f47](https://github.com/sondr3/frontend-config/commit/c907f47cae26ea0b1c7eae3017d7e92c3993eda8))
+
+
+
+
+
 ## 0.10.17 (2020-10-29)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
