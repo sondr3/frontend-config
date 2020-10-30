@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.14 (2020-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v6.15.0 ([10a5a24](https://github.com/sondr3/frontend-config/commit/10a5a2425f2c21d27e64fe4914c620cd70c6db7c))
+
+
+
+
+
 ## 0.6.13 (2020-10-30)
 
 **Note:** Version bump only for package @sondr3/stylelint
