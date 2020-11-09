@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.20 (2020-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb-base to v14.2.1 ([7c16551](https://github.com/sondr3/frontend-config/commit/7c1655135d9328a6195dd192bcf2774aa468624f))
+
+
+
+
+
 ## 0.4.19 (2020-11-09)
 
 **Note:** Version bump only for package @sondr3/tsconfig
