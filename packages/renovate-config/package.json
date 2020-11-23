@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/renovate-config",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "description": "Renovate configuration for @sondr3",
   "repository": "https://github.com/sondr3/frontend-config",
   "author": "Sondre Nilsen",

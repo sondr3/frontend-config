@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/prettier",
-  "version": "0.2.26",
+  "version": "0.2.27",
   "description": "Prettier configuration",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
