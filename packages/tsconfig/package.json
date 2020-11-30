@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/tsconfig",
-  "version": "0.4.30",
+  "version": "0.4.31",
   "description": "TypeScript configuration",
   "main": "tsconfig.json",
   "repository": "https://github.com/sondr3/frontend-config",
