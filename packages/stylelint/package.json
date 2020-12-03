@@ -1,6 +1,6 @@
 {
   "name": "@sondr3/stylelint",
-  "version": "0.6.31",
+  "version": "0.6.32",
   "description": "StyleLint configuration",
   "main": "index.js",
   "repository": "https://github.com/sondr3/frontend-config",
