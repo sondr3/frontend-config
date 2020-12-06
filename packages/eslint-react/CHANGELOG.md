@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.46 (2020-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v3.2.0 ([af0c3dd](https://github.com/sondr3/frontend-config/commit/af0c3dda89a8ef3c860b5cfa3c6891f7aef108c2))
+
+
+
+
+
 ## 0.5.45 (2020-12-03)
 
 
