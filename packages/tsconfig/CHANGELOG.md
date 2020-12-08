@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.36 (2020-12-08)
+
+**Note:** Version bump only for package @sondr3/tsconfig
+
+
+
+
+
 ## 0.4.35 (2020-12-07)
 
 **Note:** Version bump only for package @sondr3/tsconfig
