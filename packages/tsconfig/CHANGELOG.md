@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.37 (2020-12-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v7 ([ca47202](https://github.com/sondr3/frontend-config/commit/ca4720219895dfb83ff993cb181e75bfad288219))
+
+
+
+
+
 ## 0.4.36 (2020-12-08)
 
 **Note:** Version bump only for package @sondr3/tsconfig
