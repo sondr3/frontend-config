@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.39 (2020-12-14)
+
+**Note:** Version bump only for package @sondr3/renovate-config
+
+
+
+
+
 ## 0.2.38 (2020-12-10)
 
 
