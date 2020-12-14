@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.53 (2020-12-14)
+
+**Note:** Version bump only for package @sondr3/eslint-config-react
+
+
+
+
+
 ## 0.5.52 (2020-12-14)
 
 **Note:** Version bump only for package @sondr3/eslint-config-react
