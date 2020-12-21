@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.45 (2020-12-21)
+
+**Note:** Version bump only for package @sondr3/stylelint
+
+
+
+
+
 ## 0.6.44 (2020-12-17)
 
 
