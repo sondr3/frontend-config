@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.11.0 (2020-12-28)
+
+
+### Features
+
+* **renovate-config:** group personal packages ([cdeaba9](https://github.com/sondr3/frontend-config/commit/cdeaba952c8342ccc1d3dce180c668fbcb3fd592))
+
+
+
+
+
 ## 0.10.57 (2020-12-28)
 
 **Note:** Version bump only for package @sondr3/eslint-config-typescript
