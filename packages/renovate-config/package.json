@@ -34,7 +34,15 @@
         "automerge": false
       },
       "stabilityDays": 3,
-      "prNotPendingHours": 24
+      "prNotPendingHours": 24,
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "^sondr3"
+          ],
+          "groupName": "Personal packages"
+        }
+      ]
     }
   }
 }
