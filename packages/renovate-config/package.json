@@ -38,7 +38,7 @@
       "packageRules": [
         {
           "packagePatterns": [
-            "^sondr3"
+            "^@sondr3"
           ],
           "groupName": "Personal packages"
         }
