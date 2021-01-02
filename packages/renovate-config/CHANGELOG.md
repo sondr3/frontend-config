@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.3 (2021-01-02)
+
+
+### Bug Fixes
+
+* properly namespace personal packages ([3e13101](https://github.com/sondr3/frontend-config/commit/3e131019dd1719e4e823db7ed0e4e27fd161aed6))
+
+
+
+
+
 ## 0.3.2 (2021-01-02)
 
 
