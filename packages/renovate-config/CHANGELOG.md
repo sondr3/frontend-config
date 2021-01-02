@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.2 (2021-01-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.22.0 ([3f4f005](https://github.com/sondr3/frontend-config/commit/3f4f005ffc6699666d95c6f3d74a0f21a6930ffa))
+
+
+
+
+
 ## 0.3.1 (2020-12-31)
 
 
