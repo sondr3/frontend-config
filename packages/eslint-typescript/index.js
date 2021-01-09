@@ -14,7 +14,7 @@ module.exports = {
       files: ["*.ts", "*.tsx"],
     },
   ],
-  plugins: ["simple-import-sort", "import"],
+  plugins: ["simple-import-sort", "import", "sonarjs"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -25,6 +25,7 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:unicorn/recommended",
+    "plugin:sonarjs/recommended",
   ],
   rules: {
     // Not needed, see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/typedef.md#when-not-to-use-it
