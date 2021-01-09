@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.8 (2021-01-09)
+
+
+### Bug Fixes
+
+* yarn what u doin' ova there? ([2dea8e4](https://github.com/sondr3/frontend-config/commit/2dea8e42677b611a70b42054bda60cf8a10a3ca4))
+
+
+
+
+
 ## 0.6.7 (2021-01-07)
 
 ### Bug Fixes
