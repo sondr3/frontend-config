@@ -5,537 +5,283 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.3.7 (2021-01-07)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-prettier to v3.3.1 ([53d955f](https://github.com/sondr3/frontend-config/commit/53d955f2000813fe16d94d5393c37f7f5d46f804))
-
-
-
-
+- **deps:** update dependency eslint-plugin-prettier to v3.3.1 ([53d955f](https://github.com/sondr3/frontend-config/commit/53d955f2000813fe16d94d5393c37f7f5d46f804))
 
 ## 0.3.6 (2021-01-07)
 
-
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.12.0 ([c5a40d8](https://github.com/sondr3/frontend-config/commit/c5a40d80adfd649b2232e9f13cd14ad9b8fbd9c4))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.12.0 ([c5a40d8](https://github.com/sondr3/frontend-config/commit/c5a40d80adfd649b2232e9f13cd14ad9b8fbd9c4))
 
 ## 0.3.5 (2021-01-05)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.3.4 (2021-01-04)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.3.3 (2021-01-02)
-
 
 ### Bug Fixes
 
-* properly namespace personal packages ([3e13101](https://github.com/sondr3/frontend-config/commit/3e131019dd1719e4e823db7ed0e4e27fd161aed6))
-
-
-
-
+- properly namespace personal packages ([3e13101](https://github.com/sondr3/frontend-config/commit/3e131019dd1719e4e823db7ed0e4e27fd161aed6))
 
 ## 0.3.2 (2021-01-02)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-react to v7.22.0 ([3f4f005](https://github.com/sondr3/frontend-config/commit/3f4f005ffc6699666d95c6f3d74a0f21a6930ffa))
-
-
-
-
+- **deps:** update dependency eslint-plugin-react to v7.22.0 ([3f4f005](https://github.com/sondr3/frontend-config/commit/3f4f005ffc6699666d95c6f3d74a0f21a6930ffa))
 
 ## 0.3.1 (2020-12-31)
 
-
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.11.1 ([22f3284](https://github.com/sondr3/frontend-config/commit/22f32849f024374d782c2d7005ddbf4e9646dc26))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.11.1 ([22f3284](https://github.com/sondr3/frontend-config/commit/22f32849f024374d782c2d7005ddbf4e9646dc26))
 
 # 0.3.0 (2020-12-28)
 
-
 ### Features
 
-* **renovate-config:** group personal packages ([cdeaba9](https://github.com/sondr3/frontend-config/commit/cdeaba952c8342ccc1d3dce180c668fbcb3fd592))
-
-
-
-
+- **renovate-config:** group personal packages ([cdeaba9](https://github.com/sondr3/frontend-config/commit/cdeaba952c8342ccc1d3dce180c668fbcb3fd592))
 
 ## 0.2.49 (2020-12-28)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.48 (2020-12-24)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.11.0 ([8aadb89](https://github.com/sondr3/frontend-config/commit/8aadb89ce260a74e10cad09036914474c67326fb))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.11.0 ([8aadb89](https://github.com/sondr3/frontend-config/commit/8aadb89ce260a74e10cad09036914474c67326fb))
 
 ## 0.2.47 (2020-12-22)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-config-prettier to v7.1.0 ([6c0e83f](https://github.com/sondr3/frontend-config/commit/6c0e83f46c6bc140c33617bf7711ceb0ef512527))
-
-
-
-
+- **deps:** update dependency eslint-config-prettier to v7.1.0 ([6c0e83f](https://github.com/sondr3/frontend-config/commit/6c0e83f46c6bc140c33617bf7711ceb0ef512527))
 
 ## 0.2.46 (2020-12-22)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.45 (2020-12-21)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.44 (2020-12-17)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.10.0 ([ec76172](https://github.com/sondr3/frontend-config/commit/ec76172375f35ff5fdbc765618e3a75f1b87f204))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.10.0 ([ec76172](https://github.com/sondr3/frontend-config/commit/ec76172375f35ff5fdbc765618e3a75f1b87f204))
 
 ## 0.2.43 (2020-12-17)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-prettier to v3.3.0 ([458037d](https://github.com/sondr3/frontend-config/commit/458037d35e52b83e0afd8874c1e3514a266fa234))
-
-
-
-
+- **deps:** update dependency eslint-plugin-prettier to v3.3.0 ([458037d](https://github.com/sondr3/frontend-config/commit/458037d35e52b83e0afd8874c1e3514a266fa234))
 
 ## 0.2.42 (2020-12-16)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.41 (2020-12-16)
 
 **Note:** Version bump only for package @sondr3/renovate-config
-
-
-
-
 
 ## 0.2.40 (2020-12-14)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.39 (2020-12-14)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.38 (2020-12-10)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.9.1 ([3583232](https://github.com/sondr3/frontend-config/commit/35832329505cf65c471231e0f7212ae9996f7f97))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.9.1 ([3583232](https://github.com/sondr3/frontend-config/commit/35832329505cf65c471231e0f7212ae9996f7f97))
 
 ## 0.2.37 (2020-12-10)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.36 (2020-12-09)
-
 
 ### Bug Fixes
 
-* **deps:** update dependency eslint-config-prettier to v7 ([ca47202](https://github.com/sondr3/frontend-config/commit/ca4720219895dfb83ff993cb181e75bfad288219))
-
-
-
-
+- **deps:** update dependency eslint-config-prettier to v7 ([ca47202](https://github.com/sondr3/frontend-config/commit/ca4720219895dfb83ff993cb181e75bfad288219))
 
 ## 0.2.35 (2020-12-08)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.34 (2020-12-07)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.33 (2020-12-06)
-
 
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-prettier to v3.2.0 ([af0c3dd](https://github.com/sondr3/frontend-config/commit/af0c3dda89a8ef3c860b5cfa3c6891f7aef108c2))
-
-
-
-
+- **deps:** update dependency eslint-plugin-prettier to v3.2.0 ([af0c3dd](https://github.com/sondr3/frontend-config/commit/af0c3dda89a8ef3c860b5cfa3c6891f7aef108c2))
 
 ## 0.2.32 (2020-12-03)
 
-
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.9.0 ([b9e82fd](https://github.com/sondr3/frontend-config/commit/b9e82fd60528f8ebae2b59f4f2166cda0af7bce4))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.9.0 ([b9e82fd](https://github.com/sondr3/frontend-config/commit/b9e82fd60528f8ebae2b59f4f2166cda0af7bce4))
 
 ## 0.2.31 (2020-12-01)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.30 (2020-11-30)
 
 **Note:** Version bump only for package @sondr3/renovate-config
-
-
-
-
 
 ## 0.2.29 (2020-11-27)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.28 (2020-11-26)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.8.2 ([3a7ee7d](https://github.com/sondr3/frontend-config/commit/3a7ee7d12003d2c4cc94d734429080a4599dd6bf))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.8.2 ([3a7ee7d](https://github.com/sondr3/frontend-config/commit/3a7ee7d12003d2c4cc94d734429080a4599dd6bf))
 
 ## 0.2.27 (2020-11-24)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.26 (2020-11-23)
 
 **Note:** Version bump only for package @sondr3/renovate-config
-
-
-
-
 
 ## 0.2.25 (2020-11-23)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.24 (2020-11-22)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.23 (2020-11-20)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.8.1 ([26ff1ab](https://github.com/sondr3/frontend-config/commit/26ff1abcf350a863799724cbb69c999703e737be))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.8.1 ([26ff1ab](https://github.com/sondr3/frontend-config/commit/26ff1abcf350a863799724cbb69c999703e737be))
 
 ## 0.2.22 (2020-11-16)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.21 (2020-11-12)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.7.0 ([9422046](https://github.com/sondr3/frontend-config/commit/942204660e84f695b23baa23d26ab1f4ce41f240))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.7.0 ([9422046](https://github.com/sondr3/frontend-config/commit/942204660e84f695b23baa23d26ab1f4ce41f240))
 
 ## 0.2.20 (2020-11-10)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.19 (2020-11-09)
-
 
 ### Bug Fixes
 
-* **deps:** update dependency eslint-config-airbnb-base to v14.2.1 ([7c16551](https://github.com/sondr3/frontend-config/commit/7c1655135d9328a6195dd192bcf2774aa468624f))
-
-
-
-
+- **deps:** update dependency eslint-config-airbnb-base to v14.2.1 ([7c16551](https://github.com/sondr3/frontend-config/commit/7c1655135d9328a6195dd192bcf2774aa468624f))
 
 ## 0.2.18 (2020-11-09)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.17 (2020-11-05)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.6.1 ([33b4191](https://github.com/sondr3/frontend-config/commit/33b4191261c80fb7c8a74bf816c1ca3fc8b9c548))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.6.1 ([33b4191](https://github.com/sondr3/frontend-config/commit/33b4191261c80fb7c8a74bf816c1ca3fc8b9c548))
 
 ## 0.2.16 (2020-11-03)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.15 (2020-11-02)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.14 (2020-10-30)
-
 
 ### Bug Fixes
 
-* **deps:** update dependency eslint-config-prettier to v6.15.0 ([10a5a24](https://github.com/sondr3/frontend-config/commit/10a5a2425f2c21d27e64fe4914c620cd70c6db7c))
-
-
-
-
+- **deps:** update dependency eslint-config-prettier to v6.15.0 ([10a5a24](https://github.com/sondr3/frontend-config/commit/10a5a2425f2c21d27e64fe4914c620cd70c6db7c))
 
 ## 0.2.13 (2020-10-30)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.12 (2020-10-30)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.11 (2020-10-29)
-
 
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.6.0 ([dd61171](https://github.com/sondr3/frontend-config/commit/dd611711ca26d2f2a687513910602fe2f2e5bc3c))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.6.0 ([dd61171](https://github.com/sondr3/frontend-config/commit/dd611711ca26d2f2a687513910602fe2f2e5bc3c))
 
 ## 0.2.10 (2020-10-29)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-jsx-a11y to v6.4.1 ([c907f47](https://github.com/sondr3/frontend-config/commit/c907f47cae26ea0b1c7eae3017d7e92c3993eda8))
-
-
-
-
+- **deps:** update dependency eslint-plugin-jsx-a11y to v6.4.1 ([c907f47](https://github.com/sondr3/frontend-config/commit/c907f47cae26ea0b1c7eae3017d7e92c3993eda8))
 
 ## 0.2.9 (2020-10-29)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.8 (2020-10-27)
 
 **Note:** Version bump only for package @sondr3/renovate-config
-
-
-
-
 
 ## 0.2.7 (2020-10-26)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.6 (2020-10-26)
 
 **Note:** Version bump only for package @sondr3/renovate-config
 
-
-
-
-
 ## 0.2.5 (2020-10-24)
-
 
 ### Bug Fixes
 
-* **deps:** update dependency eslint-config-prettier to v6.14.0 ([00fcc87](https://github.com/sondr3/frontend-config/commit/00fcc877acf4d208307149c76d4ff53cd0efea7f))
-
-
-
-
+- **deps:** update dependency eslint-config-prettier to v6.14.0 ([00fcc87](https://github.com/sondr3/frontend-config/commit/00fcc877acf4d208307149c76d4ff53cd0efea7f))
 
 ## 0.2.4 (2020-10-23)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-react-hooks to v4.2.0 ([204f393](https://github.com/sondr3/frontend-config/commit/204f39352dbe94902eccab790bf21faf3b0fda3a))
-
-
-
-
+- **deps:** update dependency eslint-plugin-react-hooks to v4.2.0 ([204f393](https://github.com/sondr3/frontend-config/commit/204f39352dbe94902eccab790bf21faf3b0fda3a))
 
 ## 0.2.3 (2020-10-23)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-react to v7.21.5 ([1b4d5c1](https://github.com/sondr3/frontend-config/commit/1b4d5c17c7afa602da23e802d4da4b1f30a6ae83))
-
-
-
-
+- **deps:** update dependency eslint-plugin-react to v7.21.5 ([1b4d5c1](https://github.com/sondr3/frontend-config/commit/1b4d5c17c7afa602da23e802d4da4b1f30a6ae83))
 
 ## 0.2.2 (2020-10-22)
 
-
 ### Bug Fixes
 
-* **deps:** update typescript-eslint monorepo to v4.5.0 ([a41f575](https://github.com/sondr3/frontend-config/commit/a41f575d68087dcc19d9cac3102e068ac9d7bd92))
-
-
-
-
+- **deps:** update typescript-eslint monorepo to v4.5.0 ([a41f575](https://github.com/sondr3/frontend-config/commit/a41f575d68087dcc19d9cac3102e068ac9d7bd92))
 
 ## 0.2.1 (2020-10-20)
 
 **Note:** Version bump only for package @sondr3/renovate-config
-
-
-
-
 
 # 0.2.0 (2020-08-31)
 
