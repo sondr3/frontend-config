@@ -1177,6 +1177,21 @@
     "@octokit/openapi-types" "^2.0.1"
     "@types/node" ">= 8"
 
+"@sondr3/eslint-config-javascript@^0.4.0":
+  version "0.4.53"
+  resolved "https://registry.yarnpkg.com/@sondr3/eslint-config-javascript/-/eslint-config-javascript-0.4.53.tgz#730364543e1f716f553e45f436afa39dd0d22b5a"
+  integrity sha512-3qFGgYlCObnZktHMXRb/QgHpt/i191b2KEEoGpiXZsObmDAtk70UCu5ARvIHnuo5z4T18pkHP+EiAaaSlthjHw==
+  dependencies:
+    eslint-config-airbnb-base "14.2.1"
+    eslint-config-prettier "7.1.0"
+    eslint-plugin-import "2.22.1"
+    eslint-plugin-prettier "3.3.0"
+
+"@sondr3/prettier@^0.2.0":
+  version "0.2.50"
+  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.2.50.tgz#e0cad367f586df4b1cd8f371995cdee99e31e72a"
+  integrity sha512-ZGHcYvQympL7nJIAFX5PqJdL02LP7ez0FC9VkGVug4ET2N4UChvfhl1Hg6poG9E0fkC2AOFk7CNb/km0JSyB/w==
+
 "@types/glob@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
@@ -2673,6 +2688,13 @@ eslint-plugin-jsx-a11y@6.4.1:
     has "^1.0.3"
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
+
+eslint-plugin-prettier@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.0.tgz#61e295349a65688ffac0b7808ef0a8244bdd8d40"
+  integrity sha512-tMTwO8iUWlSRZIwS9k7/E4vrTsfvsrcM5p1eftyuqWH25nKsz/o6/54I7jwQ/3zobISyC7wMy9ZsFwgTxOcOpQ==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
 
 eslint-plugin-prettier@3.3.1:
   version "3.3.1"
