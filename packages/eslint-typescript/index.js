@@ -31,6 +31,7 @@ module.exports = {
     "import/no-unresolved": "off",
   },
   settings: {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
     node: {
       tryExtensions: [".js", ".jsx", ".json", ".ts", ".tsx", ".node", ".mjs"],
     },
