@@ -14,6 +14,7 @@ module.exports = {
       files: ["*.ts", "*.tsx"],
     },
   ],
+  plugins: ["simple-import-sort", "import"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -29,6 +30,13 @@ module.exports = {
     "@typescript-eslint/typedef": "off",
     "import/no-default-export": "error",
     "import/no-unresolved": "off",
+    // https://github.com/lydell/eslint-plugin-simple-import-sort#example-configuration
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "sort-imports": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
   },
   settings: {
     "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
