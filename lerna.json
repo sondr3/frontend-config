@@ -1,0 +1,16 @@
+{
+  "version": "independent",
+  "lerna": "3.13.1",
+  "packages": ["packages/*"],
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(release): publish",
+      "createRelease": "github",
+      "ignoreChanges": ["**/*.md", "**/package-lock.json", "lerna.json"]
+    }
+  }
+}
