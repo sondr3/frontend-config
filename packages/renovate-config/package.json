@@ -40,7 +40,7 @@
           "packagePatterns": [
             "^@sondr3"
           ],
-          "groupName": "Personal packages"
+          "groupName": "personal packages"
         }
       ]
     }
