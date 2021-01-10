@@ -18,8 +18,7 @@
     "./typescript": "./src/config/typescript.js",
     "./jsx": "./src/config/jsx.js",
     "./tsx": "./src/config/tsx.js",
-    "./functional": "./src/plugins/functional.js",
-    "./node": "./src/plugins/node.js"
+    "./functional": "./src/plugins/functional.js"
   },
   "files": [
     "src",
@@ -38,7 +37,6 @@
     "eslint-plugin-functional": "3.2.1",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.3.1",
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
