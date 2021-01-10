@@ -68,6 +68,7 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-simple-import-sort": "*",
+    "eslint-plugin-tsdoc": "*",
     "eslint-plugin-unicorn": "*",
     "prettier-eslint": "*"
   }
