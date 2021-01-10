@@ -12,18 +12,15 @@
   "scripts": {
     "lint": "eslint .",
     "style": "prettier --check *.{js,json,md} packages/**/*.{js,json}",
-    "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js,json}",
-    "ci:publish": "lerna publish --yes"
+    "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js,json}"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@commitlint/config-lerna-scopes": "11.0.0",
     "@sondr3/eslint-config-javascript": "^0.4.0",
     "@sondr3/prettier": "^0.2.0",
     "eslint": "7.17.0",
     "husky": "4.3.7",
-    "lerna": "3.22.1",
     "lint-staged": "10.5.3",
     "prettier": "2.2.1",
     "typescript": "4.1.3"
