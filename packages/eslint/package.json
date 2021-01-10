@@ -19,7 +19,8 @@
   "homepage": "https://github.com/sondr3/frontend-config#readme",
   "exports": {
     "./base": "./dist/config/base.js",
-    "./jsx": "./dist/config/jsx"
+    "./jsx": "./dist/config/jsx.js",
+    "./tsx": "./dist/config/tsx.js"
   },
   "files": [
     "dist",
