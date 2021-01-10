@@ -6,6 +6,7 @@
   "useWorkspaces": true,
   "command": {
     "version": {
+      "amend": true,
       "conventionalCommits": true,
       "exact": true,
       "message": "chore: publish",

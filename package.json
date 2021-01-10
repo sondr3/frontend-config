@@ -15,7 +15,7 @@
     "style": "prettier --check *.{js,json,md} packages/**/*.{js,json}",
     "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js,json}",
     "prepublish": "npm run lint && npm run style",
-    "publish": "lerna publish"
+    "publish": "lerna publish from-package"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
