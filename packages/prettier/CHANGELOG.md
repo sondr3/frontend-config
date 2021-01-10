@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2021-01-10)
+
+
+### Features
+
+* publish fixed version of ESLint ([be1e06b](https://github.com/sondr3/frontend-config/commit/be1e06b714dfe8ecf52e28aeccb7c8850e9fd732))
+
+
+
+
+
 # 0.4.0 (2021-01-10)
 
 
