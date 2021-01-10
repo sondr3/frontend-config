@@ -1,9 +1,11 @@
 module.exports = {
-  plugins: ["stylelint-order"],
-  extends: ["stylelint-config-recommended", "stylelint-a11y/recommended", "stylelint-prettier/recommended"],
+  extends: [
+    "stylelint-config-recommended",
+    "stylelint-a11y/recommended",
+    "stylelint-prettier/recommended",
+    "stylelint-config-sass-guidelines",
+  ],
   rules: {
-    "order/order": ["custom-properties", "declarations"],
-    "order/properties-alphabetical-order": true,
     "string-quotes": "double",
   },
 };
