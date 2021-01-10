@@ -1,9 +1,7 @@
-import { all as deepMerge } from "deepmerge";
-import type { Linter } from "eslint";
+const merge = require("deepmerge");
+const base = require("./base");
 
-import base from "./base";
-
-const baseConfig: Linter.Config = {
+const baseConfig = {
   parser: "@typescript-eslint/parser",
   overrides: [
     {
@@ -32,4 +30,4 @@ const baseConfig: Linter.Config = {
   },
 };
 
-export default deepMerge([baseConfig, base]) as Linter.Config;
+module.exports = merge.all([baseConfig, base]);

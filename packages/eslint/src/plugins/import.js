@@ -1,6 +1,4 @@
-import type { Linter } from "eslint";
-
-export const settings: Linter.Config = {
+module.exports = {
   plugins: ["simple-import-sort"],
   extends: ["plugin:import/errors", "plugin:import/warnings"],
   rules: {
