@@ -30,7 +30,9 @@ jobs:
         run: npm ci
 
       - name: Lint
-        run: npm run style
+        run: |
+          npm run lint
+          npm run style
 
   publish:
     if: "!contains(github.event.head_commit.message, 'chore(release)')"
@@ -67,9 +69,6 @@ jobs:
           git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GH_TOKEN }}
-
-      - name: Build
-        run: npm run lerna run build
 
       - name: Publish
         run: |
