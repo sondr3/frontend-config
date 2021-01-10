@@ -9,13 +9,13 @@
       "conventionalCommits": true,
       "exact": true,
       "message": "chore: publish",
-      "noGitTagVersion": true,
+      "gitTagVersion": true,
       "noPush": true,
       "ignoreChanges": ["**/*.md", "**/package-lock.json", "lerna.json"]
     },
     "publish": {
       "message": "chore: publish",
-      "noGitTagVersion": true,
+      "gitTagVersion": true,
       "noPush": true
     }
   }
