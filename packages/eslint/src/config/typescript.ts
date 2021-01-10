@@ -15,7 +15,7 @@ const baseConfig: Linter.Config = {
       },
     },
   ],
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "eslint-plugin-tsdoc"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -28,6 +28,7 @@ const baseConfig: Linter.Config = {
     "@typescript-eslint/typedef": "off",
     "import/no-default-export": "error",
     "import/no-unresolved": "off",
+    "tsdoc/syntax": "warn",
   },
 };
 
