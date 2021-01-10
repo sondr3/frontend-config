@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "lerna": "lerna",
     "style": "prettier --check *.{js,json,md} packages/**/*.{js,json}",
     "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js,json}",
     "ci:publish": "lerna publish --yes"

@@ -68,6 +68,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GH_TOKEN }}
 
+      - name: Build
+        run: npm run lerna run build
+
       - name: Publish
         run: |
           npm ci
