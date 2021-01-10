@@ -21,7 +21,9 @@
     "./base": "./dist/config/base.js",
     "./typescript": "./dist/config/typescript.js",
     "./jsx": "./dist/config/jsx.js",
-    "./tsx": "./dist/config/tsx.js"
+    "./tsx": "./dist/config/tsx.js",
+    "./functional": "./dist/plugins/functional.js",
+    "./node": "./dist/plugins/node.js"
   },
   "files": [
     "dist",
