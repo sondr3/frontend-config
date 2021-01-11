@@ -27,6 +27,9 @@ const baseConfig = {
     "import/no-default-export": "error",
     "import/no-unresolved": "off",
     "tsdoc/syntax": "warn",
+    // Fixes this warning for TS, https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
   },
 };
 
