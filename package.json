@@ -35,7 +35,7 @@
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
-    "eslint-plugin-tsdoc": "0.2.10",
+    "eslint-plugin-tsdoc": "0.2.11",
     "eslint-plugin-unicorn": "26.0.1",
     "husky": "4.3.8",
     "lerna": "3.22.1",
