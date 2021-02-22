@@ -18,7 +18,6 @@ const baseConfig = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier/@typescript-eslint",
     "plugin:import/typescript",
   ],
   rules: {
