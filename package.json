@@ -23,7 +23,7 @@
     "@commitlint/config-conventional": "11.0.0",
     "@commitlint/config-lerna-scopes": "11.0.0",
     "@sondr3/eslint-config": "0.3.2",
-    "@sondr3/prettier": "^0.2.0",
+    "@sondr3/prettier": "0.2.50",
     "@typescript-eslint/eslint-plugin": "4.15.1",
     "@typescript-eslint/parser": "4.15.1",
     "eslint": "7.20.0",
