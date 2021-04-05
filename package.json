@@ -19,9 +19,9 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.0",
-    "@commitlint/config-conventional": "12.1.0",
-    "@commitlint/config-lerna-scopes": "12.1.0",
+    "@commitlint/cli": "12.1.1",
+    "@commitlint/config-conventional": "12.1.1",
+    "@commitlint/config-lerna-scopes": "12.1.1",
     "@sondr3/eslint-config": "0.4.1",
     "@sondr3/prettier": "0.5.0",
     "@typescript-eslint/eslint-plugin": "4.20.0",
