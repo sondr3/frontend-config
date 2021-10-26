@@ -22,7 +22,7 @@
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
     "@commitlint/config-lerna-scopes": "13.2.0",
-    "@sondr3/eslint-config": "file:packages/eslint",
+    "@sondr3/eslint-config": "link:packages/eslint",
     "@sondr3/prettier": "0.5.0",
     "@typescript-eslint/eslint-plugin": "5.2.0",
     "@typescript-eslint/parser": "5.2.0",
@@ -53,7 +53,6 @@
     "node": ">= 14"
   },
   "volta": {
-    "node": "16.12.0",
-    "npm": "6.14.15"
+    "node": "17.0.1"
   }
 }

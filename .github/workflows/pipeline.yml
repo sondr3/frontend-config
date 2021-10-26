@@ -4,8 +4,6 @@ on: [push, pull_request]
 
 jobs:
   pipeline:
-    env:
-      CI: true
     name: pipeline
     runs-on: ubuntu-latest
 
@@ -13,19 +11,17 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: "15"
+          node-version: "17"
+          cache: "pnpm"
 
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+    - uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 6.19.0
 
       - name: Install and build
-        run: npm ci
+        run: pnpm install
 
       - name: Lint
         run: |
-          npm run lint
-          npm run style
+          pnpm run lint
+          pnpm run style
