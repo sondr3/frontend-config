@@ -14,9 +14,9 @@ jobs:
           node-version: "17"
           cache: "pnpm"
 
-    - uses: pnpm/action-setup@v2.0.1
-      with:
-        version: 6.19.0
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.19.0
 
       - name: Install and build
         run: pnpm install
