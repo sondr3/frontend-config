@@ -24,8 +24,8 @@
     "@commitlint/config-lerna-scopes": "13.2.0",
     "@sondr3/eslint-config": "file:packages/eslint",
     "@sondr3/prettier": "0.5.0",
-    "@typescript-eslint/eslint-plugin": "4.33.0",
-    "@typescript-eslint/parser": "4.33.0",
+    "@typescript-eslint/eslint-plugin": "5.2.0",
+    "@typescript-eslint/parser": "5.2.0",
     "eslint": "8.1.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-functional": "3.7.2",
@@ -57,7 +57,7 @@
     "node": ">= 14"
   },
   "volta": {
-    "node": "17.0.1",
-    "npm": "8.1.1"
+    "node": "16.12.0",
+    "npm": "6.14.15"
   }
 }
