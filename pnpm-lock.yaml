@@ -18,7 +18,7 @@ importers:
       eslint-plugin-simple-import-sort: 7.0.0
       eslint-plugin-tsdoc: 0.2.14
       husky: 7.0.4
-      lint-staged: 11.2.3
+      lint-staged: 11.2.6
       prettier: 2.4.1
       prettier-eslint: 13.0.0
     devDependencies:
@@ -36,7 +36,7 @@ importers:
       eslint-plugin-simple-import-sort: 7.0.0_eslint@8.1.0
       eslint-plugin-tsdoc: 0.2.14
       husky: 7.0.4
-      lint-staged: 11.2.3
+      lint-staged: 11.2.6
       prettier: 2.4.1
       prettier-eslint: 13.0.0
 
@@ -2099,8 +2099,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/11.2.3:
-    resolution: {integrity: sha512-Tfmhk8O2XFMD25EswHPv+OYhUjsijy5D7liTdxeXvhG2rsadmOLFtyj8lmlfoFFXY8oXWAIOKpoI+lJe1DB1mw==}
+  /lint-staged/11.2.6:
+    resolution: {integrity: sha512-Vti55pUnpvPE0J9936lKl0ngVeTdSZpEdTNhASbkaWX7J5R9OEifo1INBGQuGW4zmy6OG+TcWPJ3m5yuy5Q8Tg==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
