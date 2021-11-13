@@ -48,7 +48,7 @@ importers:
       eslint: 8.2.0
       eslint-config-prettier: 8.3.0
       eslint-plugin-import: 2.25.3
-      eslint-plugin-jsx-a11y: 6.4.1
+      eslint-plugin-jsx-a11y: 6.5.1
       eslint-plugin-node: 11.1.0
       eslint-plugin-prettier: 4.0.0
       eslint-plugin-react: 7.27.0
@@ -64,7 +64,7 @@ importers:
       eslint: 8.2.0
       eslint-config-prettier: 8.3.0_eslint@8.2.0
       eslint-plugin-import: 2.25.3_eslint@8.2.0
-      eslint-plugin-jsx-a11y: 6.4.1_eslint@8.2.0
+      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.2.0
       eslint-plugin-node: 11.1.0_eslint@8.2.0
       eslint-plugin-prettier: 4.0.0_307f015733298e29da9050ea0cee5b9e
       eslint-plugin-react: 7.27.0_eslint@8.2.0
@@ -119,8 +119,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/runtime/7.15.4:
-    resolution: {integrity: sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==}
+  /@babel/runtime/7.16.3:
+    resolution: {integrity: sha512-WBwekcqacdY2e9AF/Q7WLFUWmdJGJTkbjqTjoMDgXkVZ3ZRUvOPsLb5KdwISoQVsbP+DQzVZW4Zhci0DvpbNTQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
@@ -709,7 +709,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.16.3
       '@babel/runtime-corejs3': 7.15.4
     dev: true
 
@@ -765,8 +765,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /axe-core/4.3.4:
-    resolution: {integrity: sha512-4Hk6iSA/H90rtiPoCpSkeJxNWCPBf7szwVvaUqrPdxo0j2Y04suHK9jPKXaE3WI7OET6wBSwsWw7FDc1DBq7iQ==}
+  /axe-core/4.3.5:
+    resolution: {integrity: sha512-WKTW1+xAzhMS5dJsxWkliixlO/PqC4VhmO9T4juNYcaTg9jzWiJsou6m5pxWYGfigWbwzJWeFY6z47a+4neRXA==}
     engines: {node: '>=4'}
     dev: true
 
@@ -1228,17 +1228,17 @@ packages:
       tsconfig-paths: 3.11.0
     dev: true
 
-  /eslint-plugin-jsx-a11y/6.4.1_eslint@8.2.0:
-    resolution: {integrity: sha512-0rGPJBbwHoGNPU73/QCLP/vveMlM1b1Z9PponxO87jfr6tuH5ligXbDT6nHSSzBC8ovX2Z+BQu7Bk5D/Xgq9zg==}
+  /eslint-plugin-jsx-a11y/6.5.1_eslint@8.2.0:
+    resolution: {integrity: sha512-sVCFKX9fllURnXT2JwLN5Qgo24Ug5NF6dxhkmxsMEUZhXRcGg+X3e1JbJ84YePQKBl5E0ZjAH5Q4rkdcGY99+g==}
     engines: {node: '>=4.0'}
     peerDependencies:
-      eslint: ^3 || ^4 || ^5 || ^6 || ^7
+      eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
     dependencies:
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.16.3
       aria-query: 4.2.2
       array-includes: 3.1.4
       ast-types-flow: 0.0.7
-      axe-core: 4.3.4
+      axe-core: 4.3.5
       axobject-query: 2.2.0
       damerau-levenshtein: 1.0.7
       emoji-regex: 9.2.2
@@ -1246,6 +1246,7 @@ packages:
       has: 1.0.3
       jsx-ast-utils: 3.2.1
       language-tags: 1.0.5
+      minimatch: 3.0.4
     dev: true
 
   /eslint-plugin-node/11.1.0_eslint@8.2.0:
