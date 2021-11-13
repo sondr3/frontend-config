@@ -12,7 +12,7 @@ importers:
       '@typescript-eslint/parser': 5.3.1
       eslint: 8.2.0
       eslint-config-prettier: 8.3.0
-      eslint-plugin-import: 2.25.2
+      eslint-plugin-import: 2.25.3
       eslint-plugin-node: 11.1.0
       eslint-plugin-prettier: 4.0.0
       eslint-plugin-simple-import-sort: 7.0.0
@@ -30,7 +30,7 @@ importers:
       '@typescript-eslint/parser': 5.3.1_eslint@8.2.0
       eslint: 8.2.0
       eslint-config-prettier: 8.3.0_eslint@8.2.0
-      eslint-plugin-import: 2.25.2_eslint@8.2.0
+      eslint-plugin-import: 2.25.3_eslint@8.2.0
       eslint-plugin-node: 11.1.0_eslint@8.2.0
       eslint-plugin-prettier: 4.0.0_307f015733298e29da9050ea0cee5b9e
       eslint-plugin-simple-import-sort: 7.0.0_eslint@8.2.0
@@ -47,7 +47,7 @@ importers:
       deepmerge: 4.2.2
       eslint: 8.2.0
       eslint-config-prettier: 8.3.0
-      eslint-plugin-import: 2.25.2
+      eslint-plugin-import: 2.25.3
       eslint-plugin-jsx-a11y: 6.4.1
       eslint-plugin-node: 11.1.0
       eslint-plugin-prettier: 4.0.0
@@ -63,7 +63,7 @@ importers:
       '@typescript-eslint/parser': 5.3.1_eslint@8.2.0
       eslint: 8.2.0
       eslint-config-prettier: 8.3.0_eslint@8.2.0
-      eslint-plugin-import: 2.25.2_eslint@8.2.0
+      eslint-plugin-import: 2.25.3_eslint@8.2.0
       eslint-plugin-jsx-a11y: 6.4.1_eslint@8.2.0
       eslint-plugin-node: 11.1.0_eslint@8.2.0
       eslint-plugin-prettier: 4.0.0_307f015733298e29da9050ea0cee5b9e
@@ -1206,8 +1206,8 @@ packages:
       regexpp: 3.2.0
     dev: true
 
-  /eslint-plugin-import/2.25.2_eslint@8.2.0:
-    resolution: {integrity: sha512-qCwQr9TYfoBHOFcVGKY9C9unq05uOxxdklmBXLVvcwo68y5Hta6/GzCZEMx2zQiu0woKNEER0LE7ZgaOfBU14g==}
+  /eslint-plugin-import/2.25.3_eslint@8.2.0:
+    resolution: {integrity: sha512-RzAVbby+72IB3iOEL8clzPLzL3wpDrlwjsTBAQXgyp5SeTqqY+0bFubwuo+y/HLhNZcXV4XqTBO4LGsfyHIDXg==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
