@@ -19,25 +19,25 @@ importers:
       eslint-plugin-tsdoc: 0.2.14
       husky: 7.0.4
       lint-staged: 12.3.7
-      prettier: 2.6.1
+      prettier: 2.6.2
       prettier-eslint: 13.0.0
     devDependencies:
       '@commitlint/cli': 16.2.3
       '@commitlint/config-conventional': 16.2.1
       '@sondr3/eslint-config': link:packages/eslint
-      '@sondr3/prettier': 0.5.0_prettier@2.6.1
+      '@sondr3/prettier': 0.5.0_prettier@2.6.2
       '@typescript-eslint/eslint-plugin': 5.17.0_d811b3e9fac539787959b39b978df707
       '@typescript-eslint/parser': 5.17.0_eslint@8.12.0
       eslint: 8.12.0
       eslint-config-prettier: 8.5.0_eslint@8.12.0
       eslint-plugin-import: 2.25.4_eslint@8.12.0
       eslint-plugin-node: 11.1.0_eslint@8.12.0
-      eslint-plugin-prettier: 4.0.0_b253a92c95b42c3296c682f11cccb3bd
+      eslint-plugin-prettier: 4.0.0_f2c91d0f54113167d2bd9214a5ab5a36
       eslint-plugin-simple-import-sort: 7.0.0_eslint@8.12.0
       eslint-plugin-tsdoc: 0.2.14
       husky: 7.0.4
       lint-staged: 12.3.7
-      prettier: 2.6.1
+      prettier: 2.6.2
       prettier-eslint: 13.0.0
 
   packages/eslint:
@@ -66,7 +66,7 @@ importers:
       eslint-plugin-import: 2.25.4_eslint@8.12.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.12.0
       eslint-plugin-node: 11.1.0_eslint@8.12.0
-      eslint-plugin-prettier: 4.0.0_b253a92c95b42c3296c682f11cccb3bd
+      eslint-plugin-prettier: 4.0.0_f2c91d0f54113167d2bd9214a5ab5a36
       eslint-plugin-react: 7.29.4_eslint@8.12.0
       eslint-plugin-react-hooks: 4.4.0_eslint@8.12.0
       eslint-plugin-simple-import-sort: 7.0.0_eslint@8.12.0
@@ -93,7 +93,7 @@ importers:
       stylelint-config-recommended: 7.0.0
       stylelint-config-sass-guidelines: 9.0.1
       stylelint-order: 5.0.0
-      stylelint-prettier: 2.0.0_prettier@2.6.1
+      stylelint-prettier: 2.0.0_prettier@2.6.2
 
   packages/tsconfig:
     specifiers: {}
@@ -407,12 +407,12 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@sondr3/prettier/0.5.0_prettier@2.6.1:
+  /@sondr3/prettier/0.5.0_prettier@2.6.2:
     resolution: {integrity: sha512-VJUfrYgD9JykN4ZWd8fzstl8YK0gOyvqWca7W9mxdf6KYpPaehLk8B53b2jL5+IyVeVf9NpRrraXo3ohDcsxPg==}
     peerDependencies:
       prettier: ^2.0
     dependencies:
-      prettier: 2.6.1
+      prettier: 2.6.2
     dev: true
 
   /@tsconfig/node10/1.0.8:
@@ -1374,7 +1374,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_b253a92c95b42c3296c682f11cccb3bd:
+  /eslint-plugin-prettier/4.0.0_f2c91d0f54113167d2bd9214a5ab5a36:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -1387,7 +1387,7 @@ packages:
     dependencies:
       eslint: 8.12.0
       eslint-config-prettier: 8.5.0_eslint@8.12.0
-      prettier: 2.6.1
+      prettier: 2.6.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -2733,8 +2733,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.6.1:
-    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -3180,14 +3180,14 @@ packages:
       postcss-sorting: 7.0.1_postcss@8.4.5
     dev: false
 
-  /stylelint-prettier/2.0.0_prettier@2.6.1:
+  /stylelint-prettier/2.0.0_prettier@2.6.2:
     resolution: {integrity: sha512-jvT3G+9lopkeB0ARmDPszyfaOnvnIF+30QCjZxyt7E6fynI1T9mOKgYDNb9bXX17M7PXMZaX3j/26wqakjp1tw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       prettier: '>=2.0.0'
       stylelint: '>=14.0.0'
     dependencies:
-      prettier: 2.6.1
+      prettier: 2.6.2
       prettier-linter-helpers: 1.0.0
     dev: false
 
