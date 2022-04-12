@@ -16,7 +16,7 @@ importers:
       eslint-plugin-node: 11.1.0
       eslint-plugin-prettier: 4.0.0
       eslint-plugin-simple-import-sort: 7.0.0
-      eslint-plugin-tsdoc: 0.2.14
+      eslint-plugin-tsdoc: 0.2.16
       husky: 7.0.4
       lint-staged: 12.3.7
       prettier: 2.6.2
@@ -34,7 +34,7 @@ importers:
       eslint-plugin-node: 11.1.0_eslint@8.13.0
       eslint-plugin-prettier: 4.0.0_1815ac95b7fb26c13c7d48a8eef62d0f
       eslint-plugin-simple-import-sort: 7.0.0_eslint@8.13.0
-      eslint-plugin-tsdoc: 0.2.14
+      eslint-plugin-tsdoc: 0.2.16
       husky: 7.0.4
       lint-staged: 12.3.7
       prettier: 2.6.2
@@ -54,7 +54,7 @@ importers:
       eslint-plugin-react: 7.29.4
       eslint-plugin-react-hooks: 4.4.0
       eslint-plugin-simple-import-sort: 7.0.0
-      eslint-plugin-tsdoc: 0.2.14
+      eslint-plugin-tsdoc: 0.2.16
       prettier-eslint: 13.0.0
     dependencies:
       deepmerge: 4.2.2
@@ -70,7 +70,7 @@ importers:
       eslint-plugin-react: 7.29.4_eslint@8.13.0
       eslint-plugin-react-hooks: 4.4.0_eslint@8.13.0
       eslint-plugin-simple-import-sort: 7.0.0_eslint@8.13.0
-      eslint-plugin-tsdoc: 0.2.14
+      eslint-plugin-tsdoc: 0.2.16
       prettier-eslint: 13.0.0
 
   packages/prettier:
@@ -373,17 +373,17 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@microsoft/tsdoc-config/0.15.2:
-    resolution: {integrity: sha512-mK19b2wJHSdNf8znXSMYVShAHktVr/ib0Ck2FA3lsVBSEhSI/TfXT7DJQkAYgcztTuwazGcg58ZjYdk0hTCVrA==}
+  /@microsoft/tsdoc-config/0.16.1:
+    resolution: {integrity: sha512-2RqkwiD4uN6MLnHFljqBlZIXlt/SaUT6cuogU1w2ARw4nKuuppSmR0+s+NC+7kXBQykd9zzu0P4HtBpZT5zBpQ==}
     dependencies:
-      '@microsoft/tsdoc': 0.13.2
+      '@microsoft/tsdoc': 0.14.1
       ajv: 6.12.6
       jju: 1.4.0
       resolve: 1.19.0
     dev: true
 
-  /@microsoft/tsdoc/0.13.2:
-    resolution: {integrity: sha512-WrHvO8PDL8wd8T2+zBGKrMwVL5IyzR3ryWUsl0PXgEV0QHup4mTLi0QcATefGI6Gx9Anu7vthPyyyLpY0EpiQg==}
+  /@microsoft/tsdoc/0.14.1:
+    resolution: {integrity: sha512-6Wci+Tp3CgPt/B9B0a3J4s3yMgLNSku6w5TV6mN+61C71UqsRBv2FUibBf3tPGlNxebgPHMEUzKpb1ggE8KCKw==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -1431,11 +1431,11 @@ packages:
       eslint: 8.13.0
     dev: true
 
-  /eslint-plugin-tsdoc/0.2.14:
-    resolution: {integrity: sha512-fJ3fnZRsdIoBZgzkQjv8vAj6NeeOoFkTfgosj6mKsFjX70QV256sA/wq+y/R2+OL4L8E79VVaVWrPeZnKNe8Ng==}
+  /eslint-plugin-tsdoc/0.2.16:
+    resolution: {integrity: sha512-F/RWMnyDQuGlg82vQEFHQtGyWi7++XJKdYNn0ulIbyMOFqYIjoJOUdE6olORxgwgLkpJxsCJpJbTHgxJ/ggfXw==}
     dependencies:
-      '@microsoft/tsdoc': 0.13.2
-      '@microsoft/tsdoc-config': 0.15.2
+      '@microsoft/tsdoc': 0.14.1
+      '@microsoft/tsdoc-config': 0.16.1
     dev: true
 
   /eslint-scope/5.1.1:
