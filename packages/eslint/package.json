@@ -42,7 +42,7 @@
     "eslint-plugin-react-hooks": "4.5.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-tsdoc": "0.2.16",
-    "prettier-eslint": "14.0.1"
+    "prettier-eslint": "14.0.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
