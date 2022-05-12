@@ -30,9 +30,9 @@
     "deepmerge": "4.2.2"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.21.0",
-    "@typescript-eslint/parser": "5.21.0",
-    "eslint": "8.14.0",
+    "@typescript-eslint/eslint-plugin": "5.23.0",
+    "@typescript-eslint/parser": "5.23.0",
+    "eslint": "8.15.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
@@ -42,7 +42,7 @@
     "eslint-plugin-react-hooks": "4.5.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-tsdoc": "0.2.16",
-    "prettier-eslint": "14.0.2"
+    "prettier-eslint": "14.0.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
