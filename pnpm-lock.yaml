@@ -50,7 +50,7 @@ importers:
       eslint: 8.18.0
       eslint-config-prettier: 8.5.0
       eslint-plugin-import: 2.26.0
-      eslint-plugin-jsx-a11y: 6.5.1
+      eslint-plugin-jsx-a11y: 6.6.0
       eslint-plugin-node: 11.1.0
       eslint-plugin-prettier: 4.0.0
       eslint-plugin-react: 7.30.1
@@ -68,7 +68,7 @@ importers:
       eslint: 8.18.0
       eslint-config-prettier: 8.5.0_eslint@8.18.0
       eslint-plugin-import: 2.26.0_zgg5sxdhnxsuz2d3vdnwdtmcnu
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.18.0
+      eslint-plugin-jsx-a11y: 6.6.0_eslint@8.18.0
       eslint-plugin-node: 11.1.0_eslint@8.18.0
       eslint-plugin-prettier: 4.0.0_xu6ewijrtliw5q5lksq5uixwby
       eslint-plugin-react: 7.30.1_eslint@8.18.0
@@ -138,8 +138,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/runtime/7.17.9:
-    resolution: {integrity: sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==}
+  /@babel/runtime/7.18.6:
+    resolution: {integrity: sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
@@ -691,7 +691,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.17.9
+      '@babel/runtime': 7.18.6
       '@babel/runtime-corejs3': 7.17.9
     dev: true
 
@@ -1263,13 +1263,13 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jsx-a11y/6.5.1_eslint@8.18.0:
-    resolution: {integrity: sha512-sVCFKX9fllURnXT2JwLN5Qgo24Ug5NF6dxhkmxsMEUZhXRcGg+X3e1JbJ84YePQKBl5E0ZjAH5Q4rkdcGY99+g==}
+  /eslint-plugin-jsx-a11y/6.6.0_eslint@8.18.0:
+    resolution: {integrity: sha512-kTeLuIzpNhXL2CwLlc8AHI0aFRwWHcg483yepO9VQiHzM9bZwJdzTkzBszbuPrbgGmq2rlX/FaT2fJQsjUSHsw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
     dependencies:
-      '@babel/runtime': 7.17.9
+      '@babel/runtime': 7.18.6
       aria-query: 4.2.2
       array-includes: 3.1.5
       ast-types-flow: 0.0.7
@@ -1279,9 +1279,10 @@ packages:
       emoji-regex: 9.2.2
       eslint: 8.18.0
       has: 1.0.3
-      jsx-ast-utils: 3.3.0
+      jsx-ast-utils: 3.3.1
       language-tags: 1.0.5
       minimatch: 3.1.2
+      semver: 6.3.0
     dev: true
 
   /eslint-plugin-node/11.1.0_eslint@8.18.0:
@@ -2076,6 +2077,14 @@ packages:
       object.assign: 4.1.2
     dev: true
 
+  /jsx-ast-utils/3.3.1:
+    resolution: {integrity: sha512-pxrjmNpeRw5wwVeWyEAk7QJu2GnBO3uzPFmHCKJJFPKK2Cy0cWL23krGtLdnMmbIi6/FjlrQpPyfQI19ByPOhQ==}
+    engines: {node: '>=4.0'}
+    dependencies:
+      array-includes: 3.1.5
+      object.assign: 4.1.2
+    dev: true
+
   /kind-of/6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
@@ -2089,7 +2098,7 @@ packages:
     dev: true
 
   /language-tags/1.0.5:
-    resolution: {integrity: sha1-0yHbxNowuovzAk4ED6XBRmH5GTo=}
+    resolution: {integrity: sha512-qJhlO9cGXi6hBGKoxEG/sKZDAHD5Hnu9Hs4WbOY3pCWXDhw0N8x1NenNzm2EnNLkLkk7J2SdxAkDSbb6ftT+UQ==}
     dependencies:
       language-subtag-registry: 0.3.21
     dev: true
