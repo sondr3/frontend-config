@@ -92,7 +92,7 @@ importers:
       prettier: 2.7.1
       stylelint: 14.10.0
       stylelint-config-prettier: 9.0.3
-      stylelint-config-recommended: 8.0.0
+      stylelint-config-recommended: 9.0.0
       stylelint-config-sass-guidelines: 9.0.1
       stylelint-order: 5.0.0
       stylelint-prettier: 2.0.0
@@ -102,7 +102,7 @@ importers:
       prettier: 2.7.1
       stylelint: 14.10.0
       stylelint-config-prettier: 9.0.3_stylelint@14.10.0
-      stylelint-config-recommended: 8.0.0_stylelint@14.10.0
+      stylelint-config-recommended: 9.0.0_stylelint@14.10.0
       stylelint-config-sass-guidelines: 9.0.1_azcu7ozukcosyoqn57hruaqjcq
       stylelint-order: 5.0.0_stylelint@14.10.0
       stylelint-prettier: 2.0.0_awm54wu5jixoxpmu7tmba5fbqq
@@ -3057,10 +3057,10 @@ packages:
       stylelint: 14.10.0
     dev: false
 
-  /stylelint-config-recommended/8.0.0_stylelint@14.10.0:
-    resolution: {integrity: sha512-IK6dWvE000+xBv9jbnHOnBq01gt6HGVB2ZTsot+QsMpe82doDQ9hvplxfv4YnpEuUwVGGd9y6nbaAnhrjcxhZQ==}
+  /stylelint-config-recommended/9.0.0_stylelint@14.10.0:
+    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
     peerDependencies:
-      stylelint: ^14.8.0
+      stylelint: ^14.10.0
     dependencies:
       stylelint: 14.10.0
     dev: false
