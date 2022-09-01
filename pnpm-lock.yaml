@@ -4,8 +4,8 @@ importers:
 
   .:
     specifiers:
-      '@commitlint/cli': 17.0.3
-      '@commitlint/config-conventional': 17.0.3
+      '@commitlint/cli': 17.1.2
+      '@commitlint/config-conventional': 17.1.0
       '@sondr3/eslint-config': link:packages/eslint
       '@sondr3/prettier': workspace:0.6.0
       '@typescript-eslint/eslint-plugin': 5.35.1
@@ -23,8 +23,8 @@ importers:
       prettier-eslint: 15.0.1
       typescript: 4.8.2
     devDependencies:
-      '@commitlint/cli': 17.0.3
-      '@commitlint/config-conventional': 17.0.3
+      '@commitlint/cli': 17.1.2
+      '@commitlint/config-conventional': 17.1.0
       '@sondr3/eslint-config': link:packages/eslint
       '@sondr3/prettier': link:packages/prettier
       '@typescript-eslint/eslint-plugin': 5.35.1_pfwtupu3r4wxmgbx6hj7gwmyuu
@@ -145,8 +145,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@commitlint/cli/17.0.3:
-    resolution: {integrity: sha512-oAo2vi5d8QZnAbtU5+0cR2j+A7PO8zuccux65R/EycwvsZrDVyW518FFrnJK2UQxbRtHFFIG+NjQ6vOiJV0Q8A==}
+  /@commitlint/cli/17.1.2:
+    resolution: {integrity: sha512-h/4Hlka3bvCLbnxf0Er2ri5A44VMlbMSkdTRp8Adv2tRiklSTRIoPGs7OEXDv3EoDs2AAzILiPookgM4Gi7LOw==}
     engines: {node: '>=v14'}
     hasBin: true
     dependencies:
@@ -165,8 +165,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional/17.0.3:
-    resolution: {integrity: sha512-HCnzTm5ATwwwzNVq5Y57poS0a1oOOcd5pc1MmBpLbGmSysc4i7F/++JuwtdFPu16sgM3H9J/j2zznRLOSGVO2A==}
+  /@commitlint/config-conventional/17.1.0:
+    resolution: {integrity: sha512-WU2p0c9/jLi8k2q2YrDV96Y8XVswQOceIQ/wyJvQxawJSCasLdRB3kUIYdNjOCJsxkpoUlV/b90ZPxp1MYZDiA==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
