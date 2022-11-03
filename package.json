@@ -17,8 +17,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.1.2",
-    "@commitlint/config-conventional": "17.1.0",
+    "@commitlint/cli": "17.2.0",
+    "@commitlint/config-conventional": "17.2.0",
     "@sondr3/eslint-config": "link:packages/eslint",
     "@sondr3/prettier": "workspace:0.6.0",
     "@typescript-eslint/eslint-plugin": "5.41.0",
