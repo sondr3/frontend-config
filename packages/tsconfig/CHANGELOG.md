@@ -3,67 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 0.7.0 (2021-01-10)
-
+# 0.8.0 (2023-02-03)
 
 ### Features
 
-* publish fixed version of ESLint ([be1e06b](https://github.com/sondr3/frontend-config/commit/be1e06b714dfe8ecf52e28aeccb7c8850e9fd732))
+- upgrade config to be even stricter
 
+# 0.7.0 (2021-01-10)
 
+### Features
 
-
+- publish fixed version of ESLint ([be1e06b](https://github.com/sondr3/frontend-config/commit/be1e06b714dfe8ecf52e28aeccb7c8850e9fd732))
 
 # 0.6.0 (2021-01-10)
 
-
 ### Features
 
-* **stylelint:** add stylelint-config-sass-guidelines ([6ab8d6a](https://github.com/sondr3/frontend-config/commit/6ab8d6a54511c39645bb513f1d061bfae4b865e9))
-
+- **stylelint:** add stylelint-config-sass-guidelines ([6ab8d6a](https://github.com/sondr3/frontend-config/commit/6ab8d6a54511c39645bb513f1d061bfae4b865e9))
 
 ### BREAKING CHANGES
 
-* **stylelint:** this is now 100% for writing SCSS
-
-
-
-
+- **stylelint:** this is now 100% for writing SCSS
 
 ## 0.5.11 (2021-01-10)
 
 **Note:** Version bump only for package @sondr3/tsconfig
 
-
-
-
-
 ## 0.5.10 (2021-01-10)
 
 **Note:** Version bump only for package @sondr3/tsconfig
-
-
-
-
 
 ## 0.5.9 (2021-01-09)
 
 **Note:** Version bump only for package @sondr3/tsconfig
 
-
-
-
-
 ## 0.5.8 (2021-01-09)
-
 
 ### Bug Fixes
 
-* yarn what u doin' ova there? ([2dea8e4](https://github.com/sondr3/frontend-config/commit/2dea8e42677b611a70b42054bda60cf8a10a3ca4))
-
-
-
-
+- yarn what u doin' ova there? ([2dea8e4](https://github.com/sondr3/frontend-config/commit/2dea8e42677b611a70b42054bda60cf8a10a3ca4))
 
 ## 0.5.7 (2021-01-07)
 
