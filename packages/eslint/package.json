@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/sondr3/frontend-config.git"
   },
-  "author": "Sondre Nilsen",
+  "author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sondr3/frontend-config/issues"

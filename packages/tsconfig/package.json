@@ -4,7 +4,7 @@
   "description": "TypeScript configuration",
   "main": "tsconfig.json",
   "repository": "https://github.com/sondr3/frontend-config",
-  "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
+  "author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
