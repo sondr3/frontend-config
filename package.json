@@ -1,53 +1,34 @@
 {
-  "name": "@sondr3/frontend-config",
-  "private": true,
-  "version": "1.0.0",
-  "description": "My shared configuration files",
-  "repository": "https://github.com/sondr3/frontend-config",
-  "author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
-  "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "lint": "eslint .",
-    "style": "prettier --check *.{js,json,md} packages/**/*.{js,json}",
-    "style:fix": "prettier --write *.{js,json,md} packages/**/*.{js,json}",
-    "prepublish": "npm run lint && npm run style",
-    "prepare": "husky install"
-  },
-  "devDependencies": {
-    "@changesets/cli": "2.26.2",
-    "@sondr3/eslint-config": "link:packages/eslint",
-    "@sondr3/prettier": "workspace:0.6.0",
-    "@typescript-eslint/eslint-plugin": "6.6.0",
-    "@typescript-eslint/parser": "6.6.0",
-    "eslint": "8.48.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-import": "2.28.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "5.0.0",
-    "eslint-plugin-simple-import-sort": "10.0.0",
-    "eslint-plugin-tsdoc": "0.2.17",
-    "husky": "8.0.3",
-    "lint-staged": "14.0.1",
-    "prettier": "3.0.3",
-    "prettier-eslint": "15.0.1",
-    "turbo": "1.10.13",
-    "typescript": "5.2.2"
-  },
-  "prettier": "@sondr3/prettier",
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,css,md}": [
-      "prettier --write"
-    ]
-  },
-  "engines": {
-    "node": ">= 14",
-    "pnpm": ">= 6"
-  }
+	"name": "@sondr3/frontend-config",
+	"private": true,
+	"version": "1.0.0",
+	"description": "My shared configuration files",
+	"repository": "https://github.com/sondr3/frontend-config",
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"license": "MIT",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"format": "biome check",
+		"format:fix": "biome check --fix",
+		"prepublish": "pnpm format"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"@changesets/cli": "2.29.6",
+		"turbo": "2.5.6"
+	},
+	"engines": {
+		"node": ">= 22",
+		"pnpm": ">= 10"
+	},
+	"packageManager": "pnpm@10.15.0+sha512.486ebc259d3e999a4e8691ce03b5cac4a71cbeca39372a9b762cb500cfdf0873e2cb16abe3d951b1ee2cf012503f027b98b6584e4df22524e0c7450d9ec7aa7b",
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "^24.6.0",
+			"onFail": "download"
+		}
+	}
 }

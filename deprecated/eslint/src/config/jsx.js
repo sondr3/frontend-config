@@ -1,8 +1,8 @@
-const merge = require("deepmerge");
-const reactSettings = require("../plugins/react");
+const merge = require("deepmerge")
+const reactSettings = require("../plugins/react")
 
 const baseConfig = {
-  env: { browser: true },
-};
+	env: { browser: true },
+}
 
-module.exports = merge.all([baseConfig, reactSettings]);
+module.exports = merge.all([baseConfig, reactSettings])

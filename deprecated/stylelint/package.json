@@ -1,36 +1,36 @@
 {
-  "name": "@sondr3/stylelint",
-  "version": "0.11.0",
-  "description": "StyleLint configuration",
-  "main": "index.js",
-  "repository": "https://github.com/sondr3/frontend-config",
-  "author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config"
-  ],
-  "files": [
-    "index.js"
-  ],
-  "dependencies": {
-    "@ronilaukkarinen/stylelint-a11y": "1.2.4",
-    "postcss": "8.4.20",
-    "prettier": "2.8.1",
-    "stylelint": "14.16.1",
-    "stylelint-config-prettier": "9.0.4",
-    "stylelint-config-recommended": "9.0.0",
-    "stylelint-config-sass-guidelines": "9.0.1",
-    "stylelint-order": "5.0.0",
-    "stylelint-prettier": "2.0.0"
-  },
-  "peerDependencies": {
-    "postcss": "^8",
-    "prettier": "^2",
-    "stylelint": "^14"
-  },
-  "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
+	"name": "@sondr3/stylelint",
+	"version": "0.11.0",
+	"description": "StyleLint configuration",
+	"main": "index.js",
+	"repository": "https://github.com/sondr3/frontend-config",
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"stylelint",
+		"stylelint-config"
+	],
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"@ronilaukkarinen/stylelint-a11y": "1.2.4",
+		"postcss": "8.4.20",
+		"prettier": "2.8.1",
+		"stylelint": "14.16.1",
+		"stylelint-config-prettier": "9.0.4",
+		"stylelint-config-recommended": "9.0.0",
+		"stylelint-config-sass-guidelines": "9.0.1",
+		"stylelint-order": "5.0.0",
+		"stylelint-prettier": "2.0.0"
+	},
+	"peerDependencies": {
+		"postcss": "^8",
+		"prettier": "^2",
+		"stylelint": "^14"
+	},
+	"gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }

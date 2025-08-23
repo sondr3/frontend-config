@@ -1,16 +1,16 @@
 {
-  "name": "@sondr3/tsconfig",
-  "version": "0.9.0",
-  "description": "TypeScript configuration",
-  "main": "tsconfig.json",
-  "repository": "https://github.com/sondr3/frontend-config",
-  "author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "tsconfig.json"
-  ],
-  "gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
+	"name": "@sondr3/tsconfig",
+	"version": "0.9.0",
+	"description": "TypeScript configuration",
+	"main": "tsconfig.json",
+	"repository": "https://github.com/sondr3/frontend-config",
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f"
 }

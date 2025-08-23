@@ -1,48 +1,48 @@
 {
-  "name": "@sondr3/renovate-config",
-  "version": "0.5.0",
-  "description": "Renovate configuration for @sondr3",
-  "repository": "https://github.com/sondr3/frontend-config",
-  "author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [
-    "renovate",
-    "renovate-config"
-  ],
-  "files": [],
-  "renovate-config": {
-    "default": {
-      "description": "Renovate configuration for @sondr3",
-      "extends": [
-        "config:base",
-        ":enableVulnerabilityAlertsWithLabel(security)",
-        ":automergeMinor",
-        ":automergeBranch",
-        ":rebaseStalePrs",
-        ":prNotPending",
-        ":disableRateLimiting",
-        ":docker",
-        ":label(renovate)",
-        ":pinAllExceptPeerDependencies",
-        ":maintainLockFilesWeekly"
-      ],
-      "dependencyDashboard": true,
-      "major": {
-        "automerge": false
-      },
-      "stabilityDays": 3,
-      "prNotPendingHours": 24,
-      "packageRules": [
-        {
-          "packagePatterns": [
-            "^@sondr3"
-          ],
-          "groupName": "personal packages"
-        }
-      ]
-    }
-  }
+	"name": "@sondr3/renovate-config",
+	"version": "0.5.0",
+	"description": "Renovate configuration for @sondr3",
+	"repository": "https://github.com/sondr3/frontend-config",
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"renovate",
+		"renovate-config"
+	],
+	"files": [],
+	"renovate-config": {
+		"default": {
+			"description": "Renovate configuration for @sondr3",
+			"extends": [
+				"config:base",
+				":enableVulnerabilityAlertsWithLabel(security)",
+				":automergeMinor",
+				":automergeBranch",
+				":rebaseStalePrs",
+				":prNotPending",
+				":disableRateLimiting",
+				":docker",
+				":label(renovate)",
+				":pinAllExceptPeerDependencies",
+				":maintainLockFilesWeekly"
+			],
+			"dependencyDashboard": true,
+			"major": {
+				"automerge": false
+			},
+			"stabilityDays": 3,
+			"prNotPendingHours": 24,
+			"packageRules": [
+				{
+					"packagePatterns": [
+						"^@sondr3"
+					],
+					"groupName": "personal packages"
+				}
+			]
+		}
+	}
 }
