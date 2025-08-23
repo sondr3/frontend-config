@@ -12,12 +12,15 @@
 	"scripts": {
 		"format": "biome check",
 		"format:fix": "biome check --fix",
-		"prepublish": "pnpm format"
+		"prepublish": "pnpm format",
+		"changeset": "changeset",
+		"version-packages": "changeset version",
+		"release": "changeset publish"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.0",
 		"@changesets/cli": "2.29.6",
-		"turbo": "2.5.6"
+		"@sondr3/biome": "workspace:*"
 	},
 	"engines": {
 		"node": ">= 22",
