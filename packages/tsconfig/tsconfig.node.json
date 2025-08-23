@@ -1,0 +1,12 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Node",
+	"compilerOptions": {
+		"lib": ["ES2024", "ESNext"],
+		"module": "NodeNext",
+		"target": "ES2024",
+		"rewriteRelativeImportExtensions": true,
+		"erasableSyntaxOnly": true,
+		"verbatimModuleSyntax": true
+	}
+}
