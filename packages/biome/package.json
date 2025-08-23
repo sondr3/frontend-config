@@ -1,6 +1,6 @@
 {
 	"name": "@sondr3/biome",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Biome configuration",
 	"main": "biome.jsonc",
 	"type": "module",
