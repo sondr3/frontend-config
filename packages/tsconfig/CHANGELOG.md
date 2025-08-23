@@ -6,9 +6,6 @@
 
 - 48394d0: Refactor and update configs
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
 # 0.8.0 (2023-02-03)
 
 ### Features

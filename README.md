@@ -7,6 +7,7 @@ anyone other than me using them.
 ## Packages
 
 - `tsconfig` [![npm version](https://badge.fury.io/js/%40sondr3%2Ftsconfig.svg)](https://www.npmjs.com/package/@sondr3/tsconfig)
+- `biome` [![npm version](https://badge.fury.io/js/%40sondr3%2Fbiome.svg)](https://www.npmjs.com/package/@sondr3/biome)
 
 ## Deprecated
 
