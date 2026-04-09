@@ -9,12 +9,12 @@ anyone other than me using them.
 - `tsconfig` [![npm version](https://badge.fury.io/js/%40sondr3%2Ftsconfig.svg)](https://www.npmjs.com/package/@sondr3/tsconfig)
 - `oxfmt` [![npm version](https://badge.fury.io/js/%40sondr3%2Foxfmt.svg)](https://www.npmjs.com/package/@sondr3/oxfmt)
 - `oxlint` [![npm version](https://badge.fury.io/js/%40sondr3%2Foxlint.svg)](https://www.npmjs.com/package/@sondr3/oxlint)
-- `biome` [![npm version](https://badge.fury.io/js/%40sondr3%2Fbiome.svg)](https://www.npmjs.com/package/@sondr3/biome)
 
 ## Deprecated
 
 The following is packages that I've decided to sunset.
 
+- `biome` [![npm version](https://badge.fury.io/js/%40sondr3%2Fbiome.svg)](https://www.npmjs.com/package/@sondr3/biome)
 - `eslint-javascript` [![npm version](https://badge.fury.io/js/%40sondr3%2Feslint-config-javascript.svg)](https://www.npmjs.com/package/@sondr3/eslint-config-javascript)
 - `eslint-react` [![npm version](https://badge.fury.io/js/%40sondr3%2Feslint-config-react.svg)](https://www.npmjs.com/package/@sondr3/eslint-config-react)
 - `eslint-typescript` [![npm version](https://badge.fury.io/js/%40sondr3%2Feslint-config-typescript.svg)](https://www.npmjs.com/package/@sondr3/eslint-config-typescript)
