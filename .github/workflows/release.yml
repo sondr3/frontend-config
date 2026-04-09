@@ -8,7 +8,9 @@ on:
 jobs:
   release:
     name: release
+    environment: release
     runs-on: ubuntu-latest
+
     permissions:
       id-token: write
       pull-requests: write
@@ -22,6 +24,7 @@ jobs:
         with:
           node-version: latest
           cache: "pnpm"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install and build
         run: pnpm install
@@ -36,5 +39,3 @@ jobs:
           publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
