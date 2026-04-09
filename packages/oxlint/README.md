@@ -1,6 +1,6 @@
-# `biome` [![npm version](https://badge.fury.io/js/%40sondr3%2Fbiome.svg)](https://badge.fury.io/js/%40sondr3%2Fbiome)
+# `oxlint` [![npm version](https://badge.fury.io/js/%40sondr3%2Foxlint.svg)](https://badge.fury.io/js/%40sondr3%2Foxlint)
 
-My Biome configuration that I share between my projects.
+My oxlint configuration that I share between my projects.
 
 ## License
 
