@@ -26,6 +26,9 @@ importers:
       oxlint:
         specifier: 1.59.0
         version: 1.59.0(oxlint-tsgolint@0.20.0)
+      oxlint-tsgolint:
+        specifier: 0.20.0
+        version: 0.20.0
 
   packages/biome:
     dependencies:
