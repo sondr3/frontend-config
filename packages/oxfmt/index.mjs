@@ -1,6 +1,5 @@
-import { OxfmtConfig } from "oxfmt"
-
-export const config: OxfmtConfig = {
+/** @type import("oxfmt").OxfmtConfig */
+export default {
 	ignorePatterns: ["**/__generated__/**", "**/__snapshots__/**", "**dist**", "**/coverage/**"],
 	endOfLine: "lf",
 	printWidth: 120,
@@ -11,4 +10,4 @@ export const config: OxfmtConfig = {
 		internalPattern: ["~/", "#/"],
 		newlinesBetween: true,
 	},
-}
+};

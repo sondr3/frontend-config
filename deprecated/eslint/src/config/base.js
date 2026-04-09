@@ -1,6 +1,6 @@
-const merge = require("deepmerge")
-const importSettings = require("../plugins/import")
-const prettierSettings = require("../plugins/prettier")
+const merge = require("deepmerge");
+const importSettings = require("../plugins/import");
+const prettierSettings = require("../plugins/prettier");
 
 const baseConfig = {
 	parserOptions: {
@@ -11,6 +11,6 @@ const baseConfig = {
 		es6: true,
 	},
 	extends: ["eslint:recommended"],
-}
+};
 
-module.exports = merge.all([baseConfig, prettierSettings, importSettings])
+module.exports = merge.all([baseConfig, prettierSettings, importSettings]);

@@ -1,19 +1,19 @@
 {
 	"name": "@sondr3/oxfmt",
 	"version": "0.1.0",
+	"gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f",
 	"description": "oxfmt configuration",
-	"main": "index.ts",
-	"type": "module",
-	"repository": "https://github.com/sondr3/frontend-config",
-	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
 	"license": "MIT",
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"repository": "https://github.com/sondr3/frontend-config",
+	"files": [
+		"index.mjs"
+	],
+	"type": "module",
+	"main": "index.mjs",
 	"publishConfig": {
 		"access": "public"
 	},
-	"files": [
-		"index.ts"
-	],
-	"gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f",
 	"peerDependencies": {
 		"oxfmt": ">= 0.44.0"
 	}
