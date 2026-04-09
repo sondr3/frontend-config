@@ -1,19 +1,19 @@
 {
 	"name": "@sondr3/biome",
 	"version": "1.0.0",
+	"gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f",
 	"description": "Biome configuration",
-	"main": "biome.jsonc",
-	"type": "module",
-	"repository": "https://github.com/sondr3/frontend-config",
-	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
 	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
-	},
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"repository": "https://github.com/sondr3/frontend-config",
 	"files": [
 		"biome.jsonc"
 	],
-	"gitHead": "6e548058aa525f9b6d460758dcc3183bd2688a0f",
+	"type": "module",
+	"main": "biome.jsonc",
+	"publishConfig": {
+		"access": "public"
+	},
 	"peerDependencies": {
 		"@biomejs/biome": ">= 2"
 	}

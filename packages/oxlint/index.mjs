@@ -1,6 +1,5 @@
-import { OxlintConfig } from "oxlint"
-
-export const config: OxlintConfig = {
+/** @type import("oxlint").OxlintConfig */
+export default {
 	ignorePatterns: ["**/__generated__/**", "**/__snapshots__/**", "**dist**", "**/coverage/**"],
 	plugins: ["eslint", "import", "typescript", "oxc", "node", "promise", "unicorn"],
 	categories: {
@@ -31,4 +30,4 @@ export const config: OxlintConfig = {
 	options: {
 		typeAware: true,
 	},
-}
+};

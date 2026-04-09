@@ -13,11 +13,14 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: latest
+          node-version-file: "package.json"
           cache: "pnpm"
 
       - name: Install and build
         run: pnpm install
 
-      - name: Lint
+      - name: Formatting
         run: pnpm run format
+
+      - name: Linting
+        run: pnpm run lint

@@ -1,5 +1,5 @@
-const merge = require("deepmerge")
-const base = require("./base")
+const merge = require("deepmerge");
+const base = require("./base");
 
 const baseConfig = {
 	parser: "@typescript-eslint/parser",
@@ -32,6 +32,6 @@ const baseConfig = {
 		"no-undef": "off",
 		"@typescript-eslint/no-unused-vars": ["error"],
 	},
-}
+};
 
-module.exports = merge.all([baseConfig, base])
+module.exports = merge.all([baseConfig, base]);

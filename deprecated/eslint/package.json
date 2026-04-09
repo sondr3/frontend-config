@@ -2,23 +2,15 @@
 	"name": "@sondr3/eslint-config",
 	"version": "0.7.1",
 	"description": "Personal configuration for ESLint",
-	"scripts": {},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sondr3/frontend-config.git"
-	},
-	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
-	"license": "MIT",
+	"homepage": "https://github.com/sondr3/frontend-config#readme",
 	"bugs": {
 		"url": "https://github.com/sondr3/frontend-config/issues"
 	},
-	"homepage": "https://github.com/sondr3/frontend-config#readme",
-	"exports": {
-		"./base": "./src/config/base.js",
-		"./typescript": "./src/config/typescript.js",
-		"./jsx": "./src/config/jsx.js",
-		"./tsx": "./src/config/tsx.js",
-		"./node": "./src/plugins/node.js"
+	"license": "MIT",
+	"author": "Sondre Aasemoen <sondre@eons.io> (https://www.eons.io)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sondr3/frontend-config.git"
 	},
 	"files": [
 		"src",
@@ -26,6 +18,14 @@
 		"README.md",
 		"package.json"
 	],
+	"exports": {
+		"./base": "./src/config/base.js",
+		"./typescript": "./src/config/typescript.js",
+		"./jsx": "./src/config/jsx.js",
+		"./tsx": "./src/config/tsx.js",
+		"./node": "./src/plugins/node.js"
+	},
+	"scripts": {},
 	"dependencies": {
 		"deepmerge": "4.2.2"
 	},

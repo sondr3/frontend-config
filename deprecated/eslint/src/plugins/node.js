@@ -9,4 +9,4 @@ module.exports = {
 		"node/no-extraneous-import": "off",
 		"node/no-extraneous-require": "off",
 	},
-}
+};
