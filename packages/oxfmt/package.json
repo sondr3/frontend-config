@@ -1,6 +1,6 @@
 {
 	"name": "@sondr3/oxfmt",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "oxfmt configuration",
 	"main": "index.ts",
 	"type": "module",
