@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.1.2
+
+### Patch Changes
+
+- 88cf558: Don't use semicolons in oxfmt unless required
+
 ## 0.1.1
 
 ### Patch Changes
